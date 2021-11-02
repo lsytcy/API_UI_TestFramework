@@ -3,6 +3,7 @@ import os
 import unittest
 from tests.test_to_run import TestToRun
 from tests.itesting_test import ITestingTest
+from common.html_reporter import GenerateReport
 
 '''
 os.path.abspath('.')--不包含文件名
@@ -64,10 +65,19 @@ if __name__ == '__main__':
     '''
 
     # 破除默认的pattern
-    loader = unittest.defaultTestLoader
+    # loader = unittest.defaultTestLoader
     # 设置运行仅以equal开头的测试用例
     # loader.testMethodPrefix = 'equal'
-    suite = unittest.defaultTestLoader.discover(os.path.join(os.path.abspath("."), 'tests'), pattern='*.py',
+    """
+    suite = unittest.defaultTestLoader.discover(os.path.join(os.path.abspath("."), 'tests'), pattern='*baidu.py',
                                                 top_level_dir=os.path.abspath('.'))
     runner = unittest.TextTestRunner(verbosity=2)
-    runner.run(suite)
+    runner.run(suite)    
+    """
+
+    # 使用HMTLTestRunner生成测试报告
+    suite = unittest.defaultTestLoader.discover(os.path.join(os.path.abspath("."), 'tests'), pattern='*baidu.py',
+                                                top_level_dir=os.path.abspath('.'))
+    html_report = GenerateReport()
+    html_report.generate_report(suite)
+

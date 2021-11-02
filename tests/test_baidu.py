@@ -17,18 +17,18 @@ class Baidu(unittest.TestCase):
 
     # 初始化打开浏览器，并打开指定网页
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome(r'D:\chromedriver_win32\chromedriver.exe')
         self.driver.implicitly_wait(30)
         self.base_url = "https://www.baidu.com"
 
     def test_baidu_search(self):
         driver = self.driver
-        driver.get(self.base_url, "/")
-        driver.find_element_by_id('kw').send_keys("iTesnging")
+        driver.get(self.base_url+"/")
+        driver.find_element_by_id('kw').send_keys("中国海南海花岛")
         driver.find_element_by_id('su').click()
         time.sleep(2)
-        search_results = driver.find_element_by_xpath('//*[@id="1"/h3/a').get_attribute('innerHTML')
-        self.assertEqual('iTesting' in search_results, True)
+        search_results = driver.find_element_by_xpath('//*[@id="4"]/h3/a/em').get_attribute('innerHTML')
+        self.assertEqual('中国海南海花岛' in search_results, True)
 
     @unittest.skip('Skip')
     def test_baidu_set(self):
