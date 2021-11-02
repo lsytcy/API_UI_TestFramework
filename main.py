@@ -21,6 +21,7 @@ def get_module_name_string(file_dir):
 
 if __name__ == '__main__':
     '''
+    test
     # 定义suits
     suites = unittest.TestSuite()
     # 获取所有的module的string, 类似package.mod的方式
@@ -44,5 +45,3 @@ if __name__ == '__main__':
     runner = unittest.TextTestRunner(verbosity=2)
     # 运行suite
     runner.run(suite)
-
-
