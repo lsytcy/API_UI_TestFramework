@@ -4,6 +4,13 @@ import unittest
 from tests.test_to_run import TestToRun
 from tests.itesting_test import ITestingTest
 
+'''
+os.path.abspath('.')--不包含文件名
+D:\\python-project\\python-func
+os.path.abspath(__file__)--包含文件名
+D:\\python-project\\python-func\\test-os.py
+'''
+
 
 # 解析tests文件夹，并且返回module的字符串列表
 def get_module_name_string(file_dir):
@@ -48,6 +55,12 @@ if __name__ == '__main__':
     runner = unittest.TextTestRunner(verbosity=2)
     # 运行suite
     runner.run(suite)
+    '''
+
+    '''
+    1、unittest.TestLoader().loadTestsFromModule(m)这种方式并不是只导入“test”开头的模块，在运行时itesting_test.py也被加载了！
+    2、unittest.defaultTestLoader.discover这种方式才是默认加载test开头的模块
+    3、loader.testMethodPrefix = 'equal'控制的是加载的py文件中的testcase; patter控制的是加载的py文件
     '''
 
     # 破除默认的pattern
