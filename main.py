@@ -66,7 +66,7 @@ if __name__ == '__main__':
     # 破除默认的pattern
     loader = unittest.defaultTestLoader
     # 设置运行仅以equal开头的测试用例
-    loader.testMethodPrefix = 'equal'
+    # loader.testMethodPrefix = 'equal'
     suite = unittest.defaultTestLoader.discover(os.path.join(os.path.abspath("."), 'tests'), pattern='*.py',
                                                 top_level_dir=os.path.abspath('.'))
     runner = unittest.TextTestRunner(verbosity=2)
