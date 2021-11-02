@@ -6,12 +6,12 @@ flag = False
 # 测试类必须要继承TestCase
 class ITestingTest(unittest.TestCase):
 
-    '''
+    """"
     @unittest.skip() 执行时直接忽略掉被装饰的测试用例
     @unittest.skipIf() 如果 skipIf 里的条件成立，执行时直接忽略掉被装饰的测试用例
     @unittest.skipUnless() 永久在执行时忽略被装饰的测试用例，除非 skipUnless 里的条件成立；
     @unittest.expectedFailure期望被装饰的测试用例是失败的，如果是失败的，则此条测试用例将被标记为测试通过
-    '''
+    """
 
     @classmethod
     def setUpClass(cls) -> None:
