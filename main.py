@@ -1,6 +1,8 @@
 import importlib.util
 import os
 import unittest
+from tests.test_to_run import TestToRun
+from tests.itesting_test import ITestingTest
 
 
 # 解析tests文件夹，并且返回module的字符串列表
@@ -37,6 +39,7 @@ if __name__ == '__main__':
     runner.run(suites)
     '''
 
+    '''
     # 动态查找测试用例
     loader = unittest.defaultTestLoader
     # 生成测试用的suite
@@ -44,4 +47,14 @@ if __name__ == '__main__':
     # 指定runner为TextTestRunner
     runner = unittest.TextTestRunner(verbosity=2)
     # 运行suite
+    runner.run(suite)
+    '''
+
+    # 破除默认的pattern
+    loader = unittest.defaultTestLoader
+    # 设置运行仅以equal开头的测试用例
+    loader.testMethodPrefix = 'equal'
+    suite = unittest.defaultTestLoader.discover(os.path.join(os.path.abspath("."), 'tests'), pattern='*.py',
+                                                top_level_dir=os.path.abspath('.'))
+    runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
