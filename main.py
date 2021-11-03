@@ -6,7 +6,7 @@ from tests.itesting_test import ITestingTest
 from common.html_reporter import GenerateReport
 
 '''
-os.path.abspath('.')--不包含文件名
+os.path.dirname(os.path.abspath(__file__))--不包含文件名
 D:\\python-project\\python-func
 os.path.abspath(__file__)--包含文件名
 D:\\python-project\\python-func\\test-os.py
