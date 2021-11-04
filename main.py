@@ -76,7 +76,7 @@ if __name__ == '__main__':
     """
 
     # 使用HMTLTestRunner生成测试报告
-    suite = unittest.defaultTestLoader.discover(os.path.join(os.path.abspath("."), 'tests'), pattern='*baidu.py',
+    suite = unittest.defaultTestLoader.discover(os.path.join(os.path.abspath("."), 'tests'), pattern='*haihuadao.py',
                                                 top_level_dir=os.path.abspath('.'))
     html_report = GenerateReport()
     html_report.generate_report(suite)
