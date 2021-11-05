@@ -4,6 +4,8 @@ import json
 import requests
 import time
 import pytest
+import os
+
 
 def test_get_token():
     # UAT-环境的登录接口url
@@ -27,7 +29,11 @@ def test_get_token():
 
     res = requests.post(url, data=data)
     token = res.json()["result"]["access_token"]
-    file = open("D:\\python-project\\API_UI_TestFramework\\token.txt", "w")
+    token_file_base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    token_file_name = "token.txt"
+    token_file_path = os.path.join(token_file_base, token_file_name)
+    print("token_file_path:", token_file_path)
+    file = open(token_file_path, "w")
     file.write(token)
     file.close()
     # print('***---***---***')
@@ -36,3 +42,5 @@ def test_get_token():
     # print(json.dumps(res.json(), indent=4))
     # print(res.json()["result"]["access_token"])
     # print(res.json()["result"]["union_id"])
+
+test_get_token()

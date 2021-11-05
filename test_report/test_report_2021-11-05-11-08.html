@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Test_report</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    width: 500px;
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#result_table td {
+    border: 1px solid #777;
+    padding: 2px;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #6c6; }
+.failClass  { background-color: #c60; }
+.errorClass { background-color: #c00; }
+.passCase   { color: #6c6; }
+.failCase   { color: #c60; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+</style>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class='heading'>
+<h1>Test_report</h1>
+<p class='attribute'><strong>Start Time:</strong> 2021-11-05 11:08:53</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:23.685439</p>
+<p class='attribute'><strong>Status:</strong> Pass 3</p>
+
+<p class='description'>Auto_test_report</p>
+</div>
+
+
+
+<p id='show_detail_line'>Show
+<a href='javascript:showCase(0)'>Summary</a>
+<a href='javascript:showCase(1)'>Failed</a>
+<a href='javascript:showCase(2)'>All</a>
+</p>
+<table id='result_table'>
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>Test Group/Test case</td>
+    <td>Count</td>
+    <td>Pass</td>
+    <td>Fail</td>
+    <td>Error</td>
+    <td>View</td>
+</tr>
+
+<tr class='passClass'>
+    <td>tests.test_haihuadao.TestHaiHuaDao</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',3)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_api_cms_news_list</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: 200
+&lt;bound method Response.json of &lt;Response [200]&gt;&gt;
+{"code":"00000","data":[{"currentPage":1,"pageSize":10,"orderBy":null,"uuid":"3b42dcad8bd4427eb61c5f2445b472e8","columnUuid":"","title":"欧堡酒店即将上线携程、美团平台！","picUrl":"http://hhd-test.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/d77946c340f7025ec66521542abcdb63","summary":"超值优惠、等你来购","content":"","seoDescription":"","status":2,"createUser":"test","createTime":"2021-09-16 18:28:31","updateUser":"test","updateTime":"2021-09-16 18:31:48","deleteFlag":1,"remark":"","seoKeywords":"","seoTitle":"","templateUuid":"f0cea87cb7ab4a0ab29ed3f85dee1363","author":"","authorHeadPhoto":"","initReadNum":0,"realReadNum":0,"initUpNum":0,"realUpNum":0,"sortId":1,"name":"3dfae7b7d8b74d3fad43be4fb4abfcf5","modules":"app_001","siteUuid":"83e300d68ab7441ca8ffbe6fe4ae4b33","columnUuidList":null,"searchTime":null,"values":null,"releaseTime":"2021-09-16 18:31:47","startTime":null,"endTime":null,"url":"https://hhd-sit-h5.evergrande.cn/zh-cn/app_001/3dfae7b7d8b74d3fad43be4fb4abfcf5.html","createTimestamp":1631788111733,"hadUp":false,"subReleaseTime":null,"num":null,"columnUuids":null},{"currentPage":1,"pageSize":10,"orderBy":null,"uuid":"72a307ac736d4f37b76eb61eaeb4b689","columnUuid":"","title":"测试11","picUrl":"http://hhd-test.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/6c1b9510b0ff906ee1f96bfe606a6f1c","summary":"测试22","content":"","seoDescription":"","status":2,"createUser":"test","createTime":"2021-09-08 14:37:33","updateUser":"test","updateTime":"2021-09-08 14:37:56","deleteFlag":1,"remark":"","seoKeywords":"","seoTitle":"","templateUuid":"f0cea87cb7ab4a0ab29ed3f85dee1363","author":"","authorHeadPhoto":"","initReadNum":0,"realReadNum":0,"initUpNum":0,"realUpNum":0,"sortId":1,"name":"564aaf8e29c34bd3a2b26d20be3f72a5","modules":"app_001","siteUuid":"83e300d68ab7441ca8ffbe6fe4ae4b33","columnUuidList":null,"searchTime":null,"values":null,"releaseTime":"2021-09-08 14:37:55","startTime":null,"endTime":null,"url":"https://hhd-sit-h5.evergrande.cn/zh-cn/app_001/564aaf8e29c34bd3a2b26d20be3f72a5.html","createTimestamp":1631083053345,"hadUp":false,"subReleaseTime":null,"num":null,"columnUuids":null},{"currentPage":1,"pageSize":10,"orderBy":null,"uuid":"a5ecd7af8d4c4c78b8432051c60e46ef","columnUuid":"","title":"海花岛电瓶车租赁业务全新上线","picUrl":"http://hhd-test.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/d5738b3d4b82624123f2ec371ae8f688","summary":"自在游览， 全新上线","content":"","seoDescription":"","status":2,"createUser":"test","createTime":"2021-07-09 09:27:28","updateUser":"test","updateTime":"2021-09-01 17:05:00","deleteFlag":1,"remark":"","seoKeywords":"","seoTitle":"","templateUuid":"f0cea87cb7ab4a0ab29ed3f85dee1363","author":"","authorHeadPhoto":"","initReadNum":0,"realReadNum":0,"initUpNum":0,"realUpNum":0,"sortId":1,"name":"f32d496e73304b019bbd9bda3a91cb71","modules":"app_001","siteUuid":"83e300d68ab7441ca8ffbe6fe4ae4b33","columnUuidList":null,"searchTime":null,"values":null,"releaseTime":"2021-09-01 17:04:56","startTime":null,"endTime":null,"url":"https://hhd-sit-h5.evergrande.cn/zh-cn/app_001/f32d496e73304b019bbd9bda3a91cb71.html","createTimestamp":1625794048651,"hadUp":false,"subReleaseTime":null,"num":null,"columnUuids":null},{"currentPage":1,"pageSize":10,"orderBy":null,"uuid":"04ba9897220340de944756e212756242","columnUuid":"","title":"测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试","picUrl":"http://hhd-test.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/d8eb46e7b1fe60585271023a7b07b5c0","summary":"测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试","content":"","seoDescription":"","status":2,"createUser":"test","createTime":"2021-08-26 13:44:15","updateUser":"test","updateTime":"2021-08-26 13:44:26","deleteFlag":1,"remark":"","seoKeywords":"","seoTitle":"","templateUuid":"f0cea87cb7ab4a0ab29ed3f85dee1363","author":"","authorHeadPhoto":"","initReadNum":0,"realReadNum":0,"initUpNum":0,"realUpNum":0,"sortId":1,"name":"43b85ded0a654af999e681076ef13e23","modules":"app_001","siteUuid":"83e300d68ab7441ca8ffbe6fe4ae4b33","columnUuidList":null,"searchTime":null,"values":null,"releaseTime":"2021-08-26 13:44:21","startTime":null,"endTime":null,"url":"https://hhd-sit-h5.evergrande.cn/zh-cn/app_001/43b85ded0a654af999e681076ef13e23.html","createTimestamp":1629956655013,"hadUp":false,"subReleaseTime":null,"num":null,"columnUuids":null},{"currentPage":1,"pageSize":10,"orderBy":null,"uuid":"65c2baa7045444b7805a6dfdb9cc554c","columnUuid":"","title":"图片测试2","picUrl":"http://hhd-test.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/87740ebd39229ff9819d17dad8befe53","summary":"图片测试2","content":"","seoDescription":"","status":2,"createUser":"test","createTime":"2021-08-20 10:59:02","updateUser":"test","updateTime":"2021-08-20 10:59:08","deleteFlag":1,"remark":"","seoKeywords":"","seoTitle":"","templateUuid":"f0cea87cb7ab4a0ab29ed3f85dee1363","author":"","authorHeadPhoto":"","initReadNum":0,"realReadNum":0,"initUpNum":0,"realUpNum":0,"sortId":1,"name":"603b38b214914bc3b0cea517be605771","modules":"app_001","siteUuid":"83e300d68ab7441ca8ffbe6fe4ae4b33","columnUuidList":null,"searchTime":null,"values":null,"releaseTime":"2021-08-20 10:59:04","startTime":null,"endTime":null,"url":"https://hhd-sit-h5.evergrande.cn/zh-cn/app_001/603b38b214914bc3b0cea517be605771.html","createTimestamp":1629428342855,"hadUp":false,"subReleaseTime":null,"num":null,"columnUuids":null},{"currentPage":1,"pageSize":10,"orderBy":null,"uuid":"23e6e67d058b4363ab64d03bf3a5993c","columnUuid":"","title":"图片测试1","picUrl":"http://hhd-test.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/e7329c050281f0fb2e71c36cebfc9aca","summary":"图片测试1","content":"","seoDescription":"","status":2,"createUser":"test","createTime":"2021-08-20 10:56:46","updateUser":"test","updateTime":"2021-08-20 10:56:55","deleteFlag":1,"remark":"","seoKeywords":"","seoTitle":"","templateUuid":"f0cea87cb7ab4a0ab29ed3f85dee1363","author":"","authorHeadPhoto":"","initReadNum":0,"realReadNum":0,"initUpNum":0,"realUpNum":0,"sortId":1,"name":"6eeeb4a569ac411ca5b7fdff6e365b88","modules":"app_001","siteUuid":"83e300d68ab7441ca8ffbe6fe4ae4b33","columnUuidList":null,"searchTime":null,"values":null,"releaseTime":"2021-08-20 10:56:50","startTime":null,"endTime":null,"url":"https://hhd-sit-h5.evergrande.cn/zh-cn/app_001/6eeeb4a569ac411ca5b7fdff6e365b88.html","createTimestamp":1629428206415,"hadUp":false,"subReleaseTime":null,"num":null,"columnUuids":null}],"message":"success"}
+00000
+测试22
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_get_promote_list</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
+
+    <div id='div_pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.2: 200
+{'code': '00000', 'data': [{'title': '高温福利，童世界水上王国6.1开园低价抢鲜！', 'summary': '原价228元，开园特惠价30元！1.2米以下儿童免费！超值体验，等你来嗨！', 'coverImage': 'http://hhd-test.oss-cn-shenzhen.aliyuncs.com/egsc/img/LINK/9f62616bbbc0283e3c8db9babe81ce42', 'relatedType': 4, 'goUrl': '', 'customContent': '', 'poiUuid': '', 'columnUuid': '', 'uuid': '4f3e67de052448e48b2935ccc8f5a128', 'readStatus': 0, 'pushTime': 1621826454137, 'type': 0, 'createTime': 1621826454137, 'updateTime': 1621826454153}, {'title': '童世界水上王国6.1开园门票火爆销售中！', 'summary': '原价228元，开园特惠价30元！1.2米以下儿童免费！超值体验，等你来嗨！', 'coverImage': 'http://hhd-test.oss-cn-shenzhen.aliyuncs.com/egsc/img/LINK/110b7179ec5d68e67ab8fc9774bc0890', 'relatedType': 4, 'goUrl': '', 'customContent': '', 'poiUuid': '', 'columnUuid': '', 'uuid': '5efc3d9f82d044ff8c2157ec9d1f834e', 'readStatus': 0, 'pushTime': 1621822361129, 'type': 0, 'createTime': 1621822361129, 'updateTime': 1621822361129}, {'title': '童世界水上王国6.1开园特别活动', 'summary': '原价228元，开园特惠价30元！1.2米以下儿童免费！超值体验，等你来嗨！', 'coverImage': 'http://hhd-test.oss-cn-shenzhen.aliyuncs.com/egsc/img/LINK/74b1a71d8370d14d8bcd2a4bed60b10b', 'relatedType': 4, 'goUrl': '', 'customContent': '', 'poiUuid': '', 'columnUuid': '', 'uuid': '0958b9fa2de64008b9b7ebda51f35229', 'readStatus': 0, 'pushTime': 1621821154288, 'type': 0, 'createTime': 1621821154288, 'updateTime': 1621821154298}], 'message': 'success'}
+00000
+6MOhKH20XWuoShCs4oIQfTHBV3q3i6yD76k4znZmKZKg1cKFHC5fE-S4RgWlIUOtSJy7tr_m4C7y83TeuCZVoQZF_7WyQlalVOu5Z4dTrOnOsTjEawW2BuNF76b1R4TRhcwN9NYe6COG5ywTAx37SQ0X5-nN5ILlG2tyH8_n9G7Fz0CjdSKIl-HtaDqumOVRA0W8h7IkUggGEh6FLDYbFC9r8RfSFUOgekxo7GxteBUABC1hkh5aI-u_2qxUDVrYs4aLy75mYnk6l2fkjLjfCz3WxKiXJet3B-mkmD7DeAeKJmH_40jtlZ9pdTo9KZfW
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_visit_haihuadao</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: &lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+    &lt;!--&lt;title&gt;首页 - 中国海南海花岛&lt;/title&gt;--&gt;
+    &lt;title&gt;中国海南海花岛&lt;/title&gt;
+    &lt;meta name="keyword" content="海花岛度假区,海花岛,海南海花岛,旅游,海南旅游,儋州旅游,亲子游,度假,酒店,欧堡酒店,会议中心,风情商业街,博物馆"&gt;
+    &lt;meta name="description" content="位于海南儋州的“中国海南海花岛”是恒大重构世界文化旅游版图之作，涵盖三大乐园、珍奇特色植物园、五国温泉城、婚礼庄园、影视基地、博物馆、国际购物中心、风情商业街、游艇俱乐部等28大业态，建成后将成为全球人向往的文化旅游胜地。"&gt;
+    &lt;link rel="stylesheet" href="https://hhd.evergrande.com/static/css/vendor.css"&gt;
+    &lt;link rel="stylesheet" href="https://hhd.evergrande.com/static/css/index.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="fullPage" class="fullpage-wrap"&gt;
+    &lt;div class="section banner-section" style="background-color: #fff;"&gt;
+        &lt;header class="home-header" id="header"&gt;&lt;/header&gt;
+        &lt;div class="banner-box"&gt;
+            &lt;ul class="banner-box-ul bxslider" id="banner-bxslider"&gt;
+                &lt;li class="div-list" style="background-image:url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/c154cbaa055f39cd503f4e0f024df9a1');"&gt;
+                    &lt;div class="text-box"&gt;
+&lt;!--                        &lt;h2 class="fnt_56"&gt;&lt;/h2&gt;--&gt;
+                        &lt;!--&lt;p class="fnt_20"&gt;&lt;/p&gt;--&gt;
+                  &lt;/div&gt;
+              &lt;/li&gt;
+              &lt;li class="div-list" style="background-image:url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/7b8b9b6436aaabeec644a78f763de5e9');"&gt;
+                    &lt;div class="text-box"&gt;
+&lt;!--                        &lt;h2 class="fnt_56"&gt;&lt;/h2&gt;--&gt;
+                        &lt;!--&lt;p class="fnt_20"&gt;&lt;/p&gt;--&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="div-list" style="background-image:url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/8c079fa16fa45b19f7dd7b2d153b44dd');"&gt;
+                    &lt;div class="text-box"&gt;
+&lt;!--                        &lt;h2 class="fnt_56"&gt;&lt;/h2&gt;--&gt;
+                        &lt;!--&lt;p class="fnt_20"&gt;&lt;/p&gt;--&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+				&lt;li class="div-list" style="background-image:url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/c1b8104e0b1e05e059fa4ae9666fa977');"&gt;
+                    &lt;div class="text-box"&gt;
+&lt;!--                        &lt;h2 class="fnt_56"&gt;&lt;/h2&gt;--&gt;
+                        &lt;!--&lt;p class="fnt_20"&gt;&lt;/p&gt;--&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="div-list" style="background-image:url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/f96899815de51bfa65b55de8976f99dd');"&gt;
+                    &lt;div class="text-box"&gt;
+&lt;!--                        &lt;h2 class="fnt_56"&gt;&lt;/h2&gt;--&gt;
+                        &lt;!--&lt;p class="fnt_20"&gt;&lt;/p&gt;--&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class="div-list" style="background-image:url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/f0cab21073662a7234c855e2cfb0beff');"&gt;
+                    &lt;div class="text-box"&gt;
+&lt;!--                        &lt;h2 class="fnt_56"&gt;&lt;/h2&gt;--&gt;
+                        &lt;!--&lt;p class="fnt_20"&gt;&lt;/p&gt;--&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+
+        &lt;div class="quick-box"&gt;
+            &lt;div class="fast-nav clearfix"&gt;
+                &lt;div class="fast-nav-box fl"&gt;
+                    &lt;ul class="fast-nav-in clearfix bxslider-fast-nav"&gt;
+                        &lt;li class="active"&gt;
+                            &lt;div class="divs-img"&gt;
+                                &lt;img src="https://hhd.evergrande.com/static/img/quick-icon1.png" class="normal-img" alt=""&gt;
+                                &lt;img src="https://hhd.evergrande.com/static/img/quick-icon1-active.png" class="active-img" alt=""&gt;
+                            &lt;/div&gt;
+                            &lt;span&gt;门票&lt;/span&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;div class="divs-img"&gt;
+                                &lt;img src="https://hhd.evergrande.com/static/img/quick-icon6.png" class="normal-img" alt=""&gt;
+                                &lt;img src="https://hhd.evergrande.com/static/img/quick-icon6-active.png" class="active-img" alt=""&gt;
+                            &lt;/div&gt;
+                            &lt;span&gt;酒店&lt;/span&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                          &lt;div class="divs-img"&gt;
+                            &lt;img src="https://hhd.evergrande.com/static/img/quick-icon3.png" class="normal-img" alt=""&gt;
+                            &lt;img src="https://hhd.evergrande.com/static/img/quick-icon3-active.png" class="active-img" alt=""&gt;
+                          &lt;/div&gt;
+                          &lt;span&gt;汤屋&lt;/span&gt;
+                        &lt;/li&gt;
+&lt;!--                        &lt;li&gt;--&gt;
+&lt;!--                            &lt;div class="divs-img"&gt;--&gt;
+&lt;!--                                &lt;img src="https://hhd.evergrande.com/static/img/quick-icon4.png" class="normal-img" alt=""&gt;--&gt;
+&lt;!--                                &lt;img src="https://hhd.evergrande.com/static/img/quick-icon4-active.png" class="active-img" alt=""&gt;--&gt;
+&lt;!--                            &lt;/div&gt;--&gt;
+&lt;!--                            &lt;span&gt;演出&lt;/span&gt;--&gt;
+&lt;!--                        &lt;/li&gt;--&gt;
+&lt;!--                        &lt;li&gt;--&gt;
+&lt;!--                            &lt;div class="divs-img"&gt;--&gt;
+&lt;!--                                &lt;img src="https://hhd.evergrande.com/static/img/quick-icon2.png" class="normal-img" alt=""&gt;--&gt;
+&lt;!--                                &lt;img src="https://hhd.evergrande.com/static/img/quick-icon2-active.png" class="active-img" alt=""&gt;--&gt;
+&lt;!--                            &lt;/div&gt;--&gt;
+&lt;!--                            &lt;span&gt;滨海&lt;/span&gt;--&gt;
+&lt;!--                        &lt;/li&gt;--&gt;
+&lt;!--                        &lt;li&gt;--&gt;
+&lt;!--                            &lt;div class="divs-img"&gt;--&gt;
+&lt;!--                                &lt;img src="https://hhd.evergrande.com/static/img/quick-icon3.png" class="normal-img" alt=""&gt;--&gt;
+&lt;!--                                &lt;img src="https://hhd.evergrande.com/static/img/quick-icon3-active.png" class="active-img" alt=""&gt;--&gt;
+&lt;!--                            &lt;/div&gt;--&gt;
+&lt;!--                            &lt;span&gt;汤屋&lt;/span&gt;--&gt;
+&lt;!--                        &lt;/li&gt;--&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;ul class="quick-box-in fr"&gt;
+                    &lt;li class="island-book" style="display:block;"&gt;
+
+                        &lt;form action="" id="amusementForm"&gt;
+                            &lt;div class="lis-in clearfix"&gt;
+                                &lt;div class="select-box icon-arrow-drop"&gt;
+                                    &lt;div class="sel-box"&gt;&lt;p class="select"&gt;选择门票&lt;/p&gt;&lt;/div&gt;
+
+                                    &lt;ul class="model-select" id="amusementIndex"&gt;
+                                        &lt;li class="" data-orgId=""&gt;暂无数据&lt;/li&gt;
+                                    &lt;/ul&gt;
+                                    &lt;input name="orgId" type="text" class="org-id"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="i-book-date datetimepicker" id="amusementDate"&gt;
+                                    &lt;div class="divs-in"&gt;
+                                        &lt;i class="month"&gt;&lt;span&gt;7&lt;/span&gt;月&lt;/i&gt;
+                                        &lt;img src="https://hhd.evergrande.com/static/img/ic_date_32.png" alt="" class="date-icon"&gt;
+                                        &lt;em class="day"&gt;15&lt;/em&gt;
+                                    &lt;/div&gt;
+                                    &lt;input class="date" name="reserveBeginDate" type="text" id="inAmusementDate"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="i-book-msg"&gt;
+                                    &lt;div class="divs-in"&gt;
+                                        &lt;ol id="announcement-bottom"&gt;
+                                            &lt;li&gt;&lt;a href="javascript:;"&gt;海洋乐园主题派对&lt;/a&gt;&lt;/li&gt;
+                                            &lt;li&gt;&lt;a href="javascript:;"&gt;雪峰探险招集英雄&lt;/a&gt;&lt;/li&gt;
+                                        &lt;/ol&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;a href="javascript:;" class="book-btn" id="amusementBook"&gt;预订&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/form&gt;
+
+                    &lt;/li&gt;
+
+                    &lt;li class="hotel-book"&gt;
+                        &lt;form action="" id="hotelForm"&gt;
+                            &lt;div class="lis-in clearfix"&gt;
+                                &lt;div class="select-box icon-arrow-drop"&gt;
+                                    &lt;div class="sel-box"&gt;&lt;p class="select"&gt;选择酒店&lt;/p&gt;&lt;/div&gt;
+                                    &lt;ul class="model-select" id="hotelIndex"&gt;
+                                        &lt;li class="" data-orgId=""&gt;暂无数据&lt;/li&gt;
+                                    &lt;/ul&gt;
+                                    &lt;input name="orgId" type="text" class="org-id"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="i-book-date datetimepicker" id="hotelDate01"&gt;
+                                    &lt;div class="divs-in"&gt;
+                                        &lt;span class="divs-span"&gt;始&lt;/span&gt;
+                                        &lt;i class="month"&gt;&lt;span&gt;7&lt;/span&gt;/&lt;/i&gt;
+                                        &lt;img src="https://hhd.evergrande.com/static/img/ic_date_32.png" alt="" class="date-icon"&gt;
+                                        &lt;em class="day"&gt;15&lt;/em&gt;
+                                    &lt;/div&gt;
+                                    &lt;input class="date" name="startDate" type="text" id="inHotelDate01"&gt;
+                                &lt;/div&gt;
+                                &lt;div class="i-book-date datetimepicker" id="hotelDate02"&gt;
+                                    &lt;div class="divs-in"&gt;
+                                        &lt;span class="divs-span"&gt;至&lt;/span&gt;
+                                        &lt;i class="month"&gt;&lt;span&gt;7&lt;/span&gt;/&lt;/i&gt;
+                                        &lt;img src="https://hhd.evergrande.com/static/img/ic_date_32.png" alt="" class="date-icon"&gt;
+                                        &lt;em class="day"&gt;15&lt;/em&gt;
+                                    &lt;/div&gt;
+                                    &lt;input class="date" name="endDate" type="text" id="inHotelDate02"&gt;
+                                &lt;/div&gt;
+                                &lt;a href="javascript:;" class="book-btn" id="hotelBook"&gt;预订&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/form&gt;
+                    &lt;/li&gt;
+                    &lt;li class="hotel-book"&gt;
+                      &lt;form action="" id="soupHouseForm" autocomplete="off" &gt;
+                        &lt;div class="lis-in clearfix"&gt;
+                          &lt;div class="select-box icon-arrow-drop"&gt;
+                            &lt;!--&lt;input class="select" type="text" value="选择酒店" readonly="readonly"&gt;--&gt;
+
+                            &lt;div class="sel-box"&gt;&lt;p class="select"&gt;选择汤屋&lt;/p&gt;&lt;/div&gt;
+                            &lt;ul class="model-select" id="soupHouseIndex"&gt;
+                              &lt;li class="" data-orgId=""&gt;暂无数据&lt;/li&gt;
+                            &lt;/ul&gt;
+                            &lt;input name="orgId" type="text" class="org-id"&gt;
+                          &lt;/div&gt;
+                          &lt;div class="i-book-date datetimepicker" id="soupHouseDate01"&gt;
+                            &lt;div class="divs-in"&gt;
+                              &lt;span class="divs-span"&gt;始&lt;/span&gt;
+                              &lt;i class="month"&gt;&lt;span&gt;7&lt;/span&gt;/&lt;/i&gt;
+                              &lt;img src="/static/img/ic_date_32.png" alt="" class="date-icon"&gt;
+                              &lt;em class="day"&gt;15&lt;/em&gt;
+                            &lt;/div&gt;
+                            &lt;input class="date" name="startDate" type="text" id="insoupHouseDate01"&gt;
+                          &lt;/div&gt;
+                          &lt;div class="i-book-date datetimepicker" id="soupHouseDate02"&gt;
+                            &lt;div class="divs-in"&gt;
+                              &lt;span class="divs-span"&gt;至&lt;/span&gt;
+                              &lt;i class="month"&gt;&lt;span&gt;7&lt;/span&gt;/&lt;/i&gt;
+                              &lt;img src="/static/img/ic_date_32.png" alt="" class="date-icon"&gt;
+                              &lt;em class="day"&gt;15&lt;/em&gt;
+                            &lt;/div&gt;
+                            &lt;input class="date" name="endDate" type="text" id="insoupHouseDate02"&gt;
+                          &lt;/div&gt;
+                          &lt;a href="javascript:;" class="book-btn" id="soupHouseBook"&gt;预订&lt;/a&gt;
+                        &lt;/div&gt;
+                      &lt;/form&gt;
+                    &lt;/li&gt;
+                    &lt;li class="hotel-book"&gt;--&gt;
+                        &lt;form action="" id="theaterForm"&gt;--&gt;
+                            &lt;div class="lis-in clearfix"&gt;--&gt;
+                                &lt;div class="select-box icon-arrow-drop"&gt;--&gt;
+                                    &lt;div class="sel-box"&gt;&lt;p class="select"&gt;选择演出&lt;/p&gt;&lt;/div&gt;--&gt;
+
+                                    &lt;ul class="model-select" id="theaterIndex"&gt;--&gt;
+                                        &lt;li class="" data-orgId=""&gt;暂无数据&lt;/li&gt;--&gt;
+                                    &lt;/ul&gt;--&gt;
+                                    &lt;input name="orgId" type="text" class="org-id"&gt;--&gt;
+                                    &lt;input name="scenicCode" type="text" class="scenic-code"&gt;--&gt;
+                                &lt;/div&gt;--&gt;
+                                &lt;div class="i-book-date datetimepicker" id="theaterDate01"&gt;--&gt;
+                                    &lt;div class="divs-in"&gt;--&gt;
+                                        &lt;span class="divs-span"&gt;始&lt;/span&gt;--&gt;
+                                        &lt;i class="month"&gt;&lt;span&gt;7&lt;/span&gt;/&lt;/i&gt;--&gt;
+                                        &lt;img src="https://hhd.evergrande.com/static/img/ic_date_32.png" alt="" class="date-icon"&gt;--&gt;
+                                        &lt;em class="day"&gt;15&lt;/em&gt;--&gt;
+                                    &lt;/div&gt;--&gt;
+                                    &lt;input class="date" name="reserveBeginDate" type="text" id="intheaterDate01"&gt;--&gt;
+                                &lt;/div&gt;--&gt;
+                                &lt;div class="i-book-date datetimepicker" id="theaterDate02"&gt;--&gt;
+                                    &lt;div class="divs-in"&gt;--&gt;
+                                        &lt;span class="divs-span"&gt;至&lt;/span&gt;--&gt;
+                                        &lt;i class="month"&gt;&lt;span&gt;7&lt;/span&gt;/&lt;/i&gt;--&gt;
+                                        &lt;img src="https://hhd.evergrande.com/static/img/ic_date_32.png" alt="" class="date-icon"&gt;--&gt;
+                                        &lt;em class="day"&gt;15&lt;/em&gt;--&gt;
+                                    &lt;/div&gt;--&gt;
+                                    &lt;input class="date" name="reserveEndDate" type="text" id="intheaterDate02"&gt;--&gt;
+                                &lt;/div&gt;--&gt;
+                                &lt;a href="javascript:;" class="book-btn" id="theaterBook"&gt;预订&lt;/a&gt;--&gt;
+                            &lt;/div&gt;--&gt;
+                        &lt;/form&gt;--&gt;
+                        &lt;input type="text" class="data-url" id="data-url" hidden&gt;--&gt;
+                    &lt;/li&gt;--&gt;
+
+                    &lt;li&gt;--&gt;
+                        &lt;div class="lis-in clearfix"&gt;&lt;span class="wait"&gt;敬请期待&lt;/span&gt;&lt;/div&gt;--&gt;
+                   &lt;/li&gt;--&gt;
+
+                &lt;/ul&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="video-box section"&gt;
+        &lt;ol class="clearfix"&gt;
+            &lt;li class="active"&gt;
+                &lt;div class="v-li-in"&gt;
+                    &lt;p&gt;童世界水上王国&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;            
+            &lt;li&gt;
+                &lt;div class="v-li-in"&gt;
+                    &lt;p&gt;童世界海洋乐园&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+			&lt;li&gt;
+                &lt;div class="v-li-in"&gt;
+                    &lt;p&gt;海花岛童世界&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+
+        &lt;/ol&gt;
+        &lt;ul class="playground"&gt;
+            &lt;li style="background-image:url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/429242a7ca8430274ffd650fad7f8abd');"&gt;
+                &lt;div class="li-in clearfix"&gt;
+                    &lt;div class="left-img fl active"&gt;
+                        &lt;div class="top-img"&gt;
+                            &lt;div class="top-img-l"&gt;
+                                &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/de670273e7e76facdbc9bda99b446a07" alt="" class="i-bg"/&gt;
+                                &lt;!--&lt;img src="/static/img/play-btn.png" alt="" class="play-btn"/&gt;--&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="bot-text"&gt;
+                            &lt;div class="text-box"&gt;
+                                &lt;h5&gt;嬉水雪域三千尺&lt;/h5&gt;
+                            	&lt;p&gt;中国首家海岛雪山主题度假型水上乐园。囊括全球顶级水上娱乐设施，融合雪山构建出新奇刺激的立体空间游乐体验。&lt;/p&gt;
+                                &lt;a href="/zh-cn/amusement/water.html" class="more-btn"&gt;了解详情&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="sea-right-img fl"&gt;
+                        &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/e91cd0df3b3b4c4944f1497796eb7f53" alt="" class="side-img"&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;		
+            &lt;li style="background-image:url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/c6de635b1d84624b8a0c0c07f40188fb');"&gt;
+                &lt;div class="li-in clearfix"&gt;
+                    &lt;div class="left-img fl active"&gt;
+                        &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/4bc87ba7156d8a85e98eea84efa09d02" alt="" class="side-img"&gt;
+                    &lt;/div&gt;
+                    &lt;div class="sea-right-img fl"&gt;
+                        &lt;div class="top-img-r"&gt;
+                            &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/58338f95bbfad361a47556e53c9bc99f" alt=""&gt;
+                        &lt;/div&gt;
+                        &lt;div class="b-text"&gt;
+                            &lt;div class="text-box"&gt;
+                                &lt;h5&gt;亲历极地山，相遇热带海&lt;/h5&gt;
+                            	  &lt;p&gt;全天候、全季节、室内外结合项目的大型海洋公园，以科普展示、科普教育为基点，涵盖极地世界、深海梦幻、热带雨林三大生态圈，汇聚白鲸、企鹅、海狮、白鳍鲨等万千海洋生物。&lt;/p&gt;
+                                &lt;a href="/zh-cn/amusement/marine.html" class="know-more"&gt;了解详情&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+			&lt;li style="background-image:url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/9ce9588d87f43a53564024b958a840aa');"&gt;
+                &lt;div class="li-in clearfix"&gt;
+                    &lt;div class="left-img fl"&gt;
+                        &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/290e3698a778f71d8ba40a0f75cf72bd" alt="" class="side-img"&gt;
+                    &lt;/div&gt;
+                    &lt;div class="right-img fl video-img-box" data-url=""&gt;
+                        &lt;img src="https://hhd.evergrande.com/static/img/index-img3.jpg" alt="" class="img-bg"&gt;
+                        &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/7d632610c9798179493c56748c23542d" alt="" class="img-m"&gt;
+                    &lt;/div&gt;
+                    &lt;div class="mid-img fl"&gt;
+                        &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/f7766bfdc446537eada1c45669ec959d" alt="" class="img-bg"&gt;
+                    &lt;/div&gt;
+                    &lt;div class="bottom-text" style="background-image: url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/014bf149c522bf9b233e39b61dbc1305')"&gt;
+                        &lt;div class="text-box"&gt;
+                            &lt;h5&gt;让童话触手可及&lt;/h5&gt;
+                            &lt;p&gt;置身五国神话、童话主题乐园，搭乘极速过山车与哪吒穿越龙山，与辛巴达一起航海历险，与德古拉伯爵探秘吸血鬼城堡，探险遗失的黄金城，乘坐六自由度飞行影院飞跃奥林匹斯，经历一段千年奇幻之旅。&lt;/p&gt;
+                            &lt;a href="/zh-cn/amusement/fairy.html"&gt;了解详情&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+            
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div class="tea-box section"&gt;
+      &lt;div class="tea-bar"&gt;
+          &lt;div class="content"&gt;
+              &lt;ul&gt;
+                  &lt;li style="background-image: url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/3bb641c4415e91afd9a316466a0e90cc');"&gt;&lt;/li&gt;
+                  &lt;li style="background-image: url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/76340465be2b31905f4aee5b11169899');"&gt;&lt;/li&gt;
+                  &lt;li style="background-image: url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/39301e454e81cb2274f2c41614e4ee3f');"&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+          &lt;/div&gt;
+          &lt;div class="text"&gt;
+              &lt;h2&gt;风情商业饮食街&lt;/h2&gt;
+              &lt;h3&gt;品全球特色美食 享环海艺术盛宴&lt;/h3&gt;
+              &lt;p class="txt"&gt;风情商业街集中打造地中海、德国黑森林、美国奥兰多、意大利、俄罗斯、徽州等多国元素特色建筑群。不出国门，尽享全球风情；风情饮食街融汇10余种特色风情建筑，涵盖明清、苏州、川西、岭南、东南亚、德国格林、日本京都、法国等。不出国门，吃遍世界；茗茶街以拙政园为原型，拥有十大古典滨海茶楼，极具江南水乡特色。酒吧街则极具荷兰鹿特丹风情，各类演艺闹吧、清吧、主题吧应有尽有，尽享海岛狂欢盛宴。&lt;/p&gt;
+              &lt;div class="know-more"&gt;
+                  &lt;a href="/zh-cn/shopping-food/culinary.html"&gt;了解更多&lt;/a&gt;
+              &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class="list"&gt;
+              &lt;ol class="clearfix"&gt;
+                  &lt;li class="active"&gt;&lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/19304cd7f303f320fac9a93f2e458b3c" alt=""&gt;&lt;/li&gt;
+                  &lt;li class=""&gt;&lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/cf8c981a415d3ba25b29687dbe79b790" alt=""&gt;&lt;/li&gt;
+                  &lt;li class=""&gt;&lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/93a17269ad80ffca9fb968d8b026128b" alt=""&gt;&lt;/li&gt;
+              &lt;/ol&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="yacht-box section"&gt;
+      &lt;div class="yacht-club"&gt;
+          &lt;div class="gallery clearfix"&gt;
+              &lt;div class="left-box"&gt;
+                  &lt;div class="top-box clearfix"&gt;
+                      &lt;div class="over-hide"&gt;&lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/428743ce9ef9134b6352dcecd9c0c7f8" alt=""&gt;&lt;/div&gt;
+                      &lt;div class="over-hide"&gt;&lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/a9a4b662ef9341502cf3ebe9deec62d5" alt=""&gt;&lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="bottom-box"&gt;
+                      &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/44b4e02c7b7fbba628d82b5513468904" alt=""&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class="center-box"&gt;
+                  &lt;div class="img-box"&gt;
+                      &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/fd512134111783047911587df2506225" alt=""&gt;
+                  &lt;/div&gt;
+                  &lt;div class="content-section"&gt;
+                      &lt;h2&gt;双子沙滩&lt;/h2&gt;
+                      &lt;h3 class="sub-title"&gt;尽兴玩海嗨翻天&lt;/h3&gt;
+                      &lt;p&gt;滨海娱乐项目，网罗全球新奇、有趣的海上娱乐设施，约30余项海陆空娱乐项目，任您肆意游玩。即可享受刺激的水上娱乐，也可亲近神秘的海底世界，满足对大海的无限想象。&lt;/p&gt;
+                      &lt;div class="know-more"&gt;
+                          &lt;a href="/zh-cn/amusement/beach.html" class="more-btn"&gt;了解更多&lt;/a&gt;
+                      &lt;/div&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+              &lt;div class="right-box"&gt;
+                  &lt;div class="top-box"&gt;
+                      &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/f59ceb18b52b717a937993b1cf95ecea" alt=""&gt;
+                  &lt;/div&gt;
+                  &lt;div class="bottom-box clearfix"&gt;
+                      &lt;div class="over-hide"&gt;&lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/82c077e5e0103019da4b55165f03ce3e" alt=""&gt;&lt;/div&gt;
+                      &lt;div class="over-hide"&gt;&lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/643c1a6ba7a76f37b579811c20443c94" alt=""&gt;&lt;/div&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="hotel-box section"&gt;
+      &lt;ul class="hotel-bgs"&gt;
+            &lt;li&gt;&lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/2b55ec48833696595c6b57e14e986a5e" alt=""&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/fb6fdf2d1b55f18915daa782dc1da2ab" alt=""&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/2af290133ef04c80b924346deeffe9f6" alt=""&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/6c447d92e4daacdc5d894feb89493cf7" alt=""&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/6dbf53af8a462220c6b69f9e941c87ae" alt=""&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;div class="hotel-right-bgcolor" _load&gt;&lt;/div&gt;
+      &lt;div class="hotel-box-in max-width1280-center"&gt;
+          &lt;div class="h-top clearfix"&gt;
+              &lt;h2 class="fl fnt_34 hotel-title"&gt;度假酒店&lt;/h2&gt;
+              &lt;div class="h-top-right fr" _load&gt;
+                  &lt;div class="bx-in"&gt;
+                      &lt;ul class="clearfix bxslider-hotel"&gt;
+                      &lt;li class="first-hotel"&gt;
+                        &lt;div class="icon-box active"&gt;
+                          &lt;a href="/zh-cn/hotel/springs.html"&gt;
+                              &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/925a96f9b569cc31760aef0f7ab9c64d" alt="" class="hotel-icon" /&gt;
+                              &lt;span class="hotel-name"&gt;五国温泉城&lt;/span&gt;
+                          &lt;/a&gt;
+
+                          &lt;div class="text-box"&gt;
+                            &lt;div class="text-box-in"&gt;
+                              &lt;h3&gt;海花泉动 五国缤纷&lt;/h3&gt;
+                              &lt;p&gt;海花岛五国温泉城拥有泰国温泉SPA湾，日本樱花风吕湾、意大利艺术温泉湾、土耳其神秘温泉湾、芬兰极地温泉湾及飘香温泉湾六大区域。融合五国民俗文化，120多个功能各异的特色温泉泡池、50余间风情SPA房、20余栋特色汤屋，带来品质温泉体验。&lt;/p&gt;
+                              &lt;div class="v-img video-img-box" data-url=""&gt;
+                                &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/6c86d97195d97166ab35c2e7dfefee06" alt="" class="v-img-bg"&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/li&gt;
+                      &lt;li class="second-hotel"&gt;
+                        &lt;div class="icon-box "&gt;
+                          &lt;a href="/zh-cn/hotel/europe.html"&gt;
+                              &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/78b112741fa653a0f52325e99384c831" alt="" class="hotel-icon" /&gt;
+                              &lt;span class="hotel-name"&gt;欧堡酒店&lt;/span&gt;
+                          &lt;/a&gt;
+
+                          &lt;div class="text-box"&gt;
+                            &lt;div class="text-box-in"&gt;
+                              &lt;h3&gt;梦幻城堡 乐享童趣&lt;/h3&gt;
+                              &lt;p&gt;海花岛欧堡酒店由森林、海洋、沙漠、冰川4座不同自然主题的欧式城堡连接而成，每间客房都拥有绝佳景观视野。酒店拥有5121间客房，规模体量位居亚洲单体酒店前列，可呈献四种风格迥异的亲子旅居体验，为客人提供高性价比度假生活方式。&lt;/p&gt;
+                              &lt;div class="v-img video-img-box" data-url=""&gt;
+                                &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/b55e26b435a46bcf4b92c9ed89432950" alt="" class="v-img-bg"&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/li&gt;
+                      &lt;li class="third-hotel"&gt;
+                        &lt;div class="icon-box "&gt;
+                          &lt;a href="/zh-cn/hotel/sevenstars.html"&gt;
+                              &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/349fb265c6612f05aee89c09dc80f361" alt="" class="hotel-icon" /&gt;
+                              &lt;span class="hotel-name"&gt;别墅酒店&lt;/span&gt;
+                          &lt;/a&gt;
+
+                          &lt;div class="text-box"&gt;
+                            &lt;div class="text-box-in"&gt;
+                              &lt;h3&gt;亲海别墅 王者尊享&lt;/h3&gt;
+                              &lt;p&gt;海花岛别墅酒店由105栋独栋别墅、3栋会所及1座多功能山中娱乐配套组成。酒店尊享1.5公里碧海银滩，滨海园林花园簇拥，呈七星伴月状分布。为国内外商旅及度假贵宾提供定制化24小时管家式服务，更可满足各国元首同时下榻，尽显国宾礼遇。&lt;/p&gt;
+                              &lt;div class="v-img video-img-box" data-url=""&gt;
+                                &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/caf7932405a2ee40316f816fcb0eb081" alt="" class="v-img-bg"&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/li&gt;
+                      &lt;li class="fourth-hotel"&gt;
+                        &lt;div class="icon-box "&gt;
+                          &lt;a href="/zh-cn/hotel/hilton.html"&gt;
+                              &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/39a0f4d9d20fd51f0a956a6d4da18c6b" alt="" class="hotel-icon" /&gt;
+                              &lt;span class="hotel-name"&gt;希尔顿酒店&lt;/span&gt;
+                          &lt;/a&gt;
+
+                          &lt;div class="text-box"&gt;
+                            &lt;div class="text-box-in"&gt;
+                              &lt;h3&gt;尊贵品质 全球如一&lt;/h3&gt;
+                              &lt;p&gt;海花岛希尔顿酒店采用扭转结构的孪生双塔设计，将自然美学与建筑美学完美融合，是海花岛的入岛地标建筑。酒店共有409间豪华客房，500多个舒适床位，并拥有600平方米户外草坪，可举办户外婚宴、冷餐等宴会，让你尽享潮流酒会、泳池派对&lt;/p&gt;
+                              &lt;div class="v-img video-img-box" data-url=""&gt;
+                                &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/22cecac27d3de3ecd5760e68498748a8" alt="" class="v-img-bg"&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/li&gt;
+                      &lt;li class="fourth-hotel"&gt;
+                        &lt;div class="icon-box "&gt;
+                          &lt;a href="/zh-cn/hotel/moviehotel.html"&gt;
+                              &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/33be6bfcdccf29e60b2d5a9867bd56d8" alt="" class="hotel-icon" /&gt;
+                              &lt;span class="hotel-name"&gt;影视酒店&lt;/span&gt;
+                          &lt;/a&gt;
+
+                          &lt;div class="text-box"&gt;
+                            &lt;div class="text-box-in"&gt;
+                              &lt;h3&gt;光影风华 玩转视听&lt;/h3&gt;
+                              &lt;p&gt;海花岛影视酒店是一座梦幻光影电影主题酒店，拥有710间客房，专业影音客房、影视特色主题餐饮，独享私人影院级视听享受。更有全球最先进的影视基地为伴，体验真实影视拍摄场景，让您与影视巨星不期而遇。&lt;/p&gt;
+                              &lt;div class="v-img video-img-box" data-url=""&gt;
+                                &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/e116b580a0b7661a91a87b3f07829c5e" alt="" class="v-img-bg"&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/li&gt;
+                      &lt;/ul&gt;
+                  &lt;/div&gt;
+
+              &lt;/div&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="island-activity section" style="background-image: url('http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/cms_test/LINK/b856792e7931fb6c0d2870e28e3c4269');"&gt;
+        &lt;div class="island-in max-width1440-center"&gt;
+            &lt;div class="top-logo max-width1280-center"&gt;
+                &lt;span class="fnt_34"&gt;文化演艺&lt;/span&gt;
+            &lt;/div&gt;
+            &lt;div class="island-content clearfix"&gt;
+                &lt;div class="item"&gt;
+                  &lt;div class="text"&gt;
+                    &lt;div class="hd"&gt;
+                        &lt;h3&gt;
+                            &lt;a href="/zh-cn/performance/museum.html"&gt;博物馆群&lt;/a&gt;
+                        &lt;/h3&gt;
+                        &lt;p class="sub-title"&gt;被仰望和被遗忘的都在这里&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="bd"&gt;
+                        &lt;p class="txt"&gt;海花岛博物馆是恒大集团倾力打造的大型海上现代化博物馆。由八座现代建筑组成。四座主题馆，以“探索生命”为线索，从浩渺海洋到苍茫宇宙，多维度审视生命的故事；四座综合馆，凭借优质的展览内容，国际前沿的展陈方式，构建了新型国际文化艺术交流平台。&lt;/p&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="view"&gt;
+                    &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/db9b94f42bec903b8dd9a97e298da1e2" alt=""&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+                &lt;div class="item"&gt;
+                  &lt;div class="text"&gt;
+                    &lt;div class="hd"&gt;
+                        &lt;h3&gt;
+                            &lt;a href="https://hhd.evergrande.com/zh-cn/performance/entertainment.html"&gt;娱乐中心&lt;/a&gt;
+                        &lt;/h3&gt;
+                        &lt;p class="sub-title"&gt;星光月色，尽情狂欢&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="bd"&gt;
+                        &lt;p class="txt"&gt;海花岛娱乐中心造型犹如一颗海上明珠，建筑面积约1.3万平方米，是集酒吧、高端KTV、音乐餐厅、空中私属派对于一体的大型娱乐派对综合体，打造充满科技感、潮流感的夜间品质娱乐氛围，成为海花岛夜间消费主场。&lt;/p&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="view"&gt;
+                    &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/3315054b7b55acf1e1cf39d62b692eb5" alt=""&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+                &lt;div class="item"&gt;
+                  &lt;div class="text"&gt;
+                    &lt;div class="hd"&gt;
+                        &lt;h3&gt;
+                            &lt;a href="/zh-cn/performance/theater.html"&gt;大剧院&lt;/a&gt;
+                        &lt;/h3&gt;
+                        &lt;p class="sub-title"&gt;艺术盛宴 创造经典&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="bd"&gt;
+                        &lt;p class="txt"&gt;海花岛大剧院内设古典私属包厢和豪华座椅，配置高级灯光、音响。签约国家著名导演陈维亚团队，为游客量身定制史诗级奇幻大剧《面具mask》，带你穿越古今，破解十九世纪宫廷悬案。&lt;/p&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="view"&gt;
+                    &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/f17899a4ef1fdfdd6122005b9c31c66f" alt=""&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+                &lt;div class="item"&gt;
+                  &lt;div class="text"&gt;
+                    &lt;div class="hd"&gt;
+                        &lt;h3&gt;
+                            &lt;a href="/zh-cn/performance/musichall.html"&gt;音乐厅&lt;/a&gt;
+                        &lt;/h3&gt;
+                        &lt;p class="sub-title"&gt;大雅之堂 天籁之音&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="bd"&gt;
+                        &lt;p class="txt"&gt;海花岛音乐厅采用前卫建筑声学工艺设计、毫米级测量声场布置，内设舒适豪华座椅，装饰风格华贵典雅。国内外音乐家在这里轮番献艺，完美演绎天籁之音，成就你的高品质艺术之旅。&lt;/p&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div class="view"&gt;
+                    &lt;img src="http://hhdegc-prd.oss-cn-shenzhen.aliyuncs.com/egsc/img/mp/poi/attr/LINK/93195e48cd77a070c7866df28230c558" alt=""&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;footer id="footer"&gt;&lt;/footer&gt;
+
+&lt;script src="https://hhd.evergrande.com/static/js/jquery.js"&gt;&lt;/script&gt;
+&lt;script src="https://hhd.evergrande.com/static/js/base.js"&gt;&lt;/script&gt;
+&lt;script src="https://hhd.evergrande.com/static/js/lodash.js"&gt;&lt;/script&gt;
+&lt;script src="https://hhd.evergrande.com/static/js/common.js"&gt;&lt;/script&gt;
+&lt;script src="https://hhd.evergrande.com/static/js/jquery.bxslider.min.js"&gt;&lt;/script&gt;    &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!--footer begin--&gt;
+
+&lt;div class="fixed-video" id="fixed-video"&gt;
+    &lt;a class="close" id="close" href="javascript:;"&gt;✕&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;script src="https://hhd.evergrande.com/static/js/jquery.bxslider.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://hhd.evergrande.com/static/js/fullpage.js"&gt;&lt;/script&gt;
+&lt;script src="https://hhd.evergrande.com/static/js/scrolloverflow.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://hhd.evergrande.com/static/js/jquery.datetimepicker.full.js"&gt;&lt;/script&gt;
+&lt;script src="https://hhd.evergrande.com/static/js/manifest.js"&gt;&lt;/script&gt;
+&lt;script src="https://hhd.evergrande.com/static/js/vendor.js"&gt;&lt;/script&gt;
+&lt;script src="https://hhd.evergrande.com/static/js/index.js"&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='total_row'>
+    <td>Total</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</body>
+</html>
