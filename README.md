@@ -20,9 +20,9 @@ unittest
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  tests中存放测试用例
+2.  common中存放公共方法
+3.  test_report中存放测试报告
 
 #### 参与贡献
 
