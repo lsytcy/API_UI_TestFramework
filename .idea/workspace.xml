@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1914395-d92a-4dad-9ef5-db39ad1a9901" name="Changes" comment="" />
+    <list default="true" id="f1914395-d92a-4dad-9ef5-db39ad1a9901" name="Changes" comment="代码合并测试（Mac）">
+      <change beforePath="$PROJECT_DIR$/tests/test_get_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_get_token.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +30,29 @@
       <option name="presentableId" value="Default" />
       <updated>1636105627738</updated>
     </task>
+    <task id="LOCAL-00001" summary="代码合并测试（Mac）">
+      <created>1636106173214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636106173214</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="代码合并测试（Mac）" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码合并测试（Mac）" />
   </component>
 </project>

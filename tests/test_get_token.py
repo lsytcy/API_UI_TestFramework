@@ -44,4 +44,4 @@ def test_get_token():
     # print(res.json()["result"]["union_id"])
 
 
-代码合并测试（Mac添加）
+# 代码合并测试（Mac添加）
