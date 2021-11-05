@@ -42,5 +42,3 @@ def test_get_token():
     # print(json.dumps(res.json(), indent=4))
     # print(res.json()["result"]["access_token"])
     # print(res.json()["result"]["union_id"])
-
-test_get_token()
