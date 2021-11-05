@@ -43,8 +43,6 @@ def test_get_token():
     # print(res.json()["result"]["access_token"])
     # print(res.json()["result"]["union_id"])
 
-
+test_get_token()
 # 代码合并测试（Mac添加）
-
-
 # 风帆股份和

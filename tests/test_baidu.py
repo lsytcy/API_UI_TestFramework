@@ -27,7 +27,7 @@ class Baidu(unittest.TestCase):
         driver.find_element_by_id('kw').send_keys("中国海南海花岛")
         driver.find_element_by_id('su').click()
         time.sleep(2)
-        search_results = driver.find_element_by_xpath('//*[@id="4"]/h3/a/em').get_attribute('innerHTML')
+        search_results = driver.find_element_by_xpath('//*[@id="6"]/h3/a/em').get_attribute('innerHTML')
         self.assertEqual('中国海南海花岛' in search_results, True)
 
     @unittest.skip('Skip')
