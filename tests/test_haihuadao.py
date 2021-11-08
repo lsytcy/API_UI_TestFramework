@@ -2,8 +2,11 @@ import json
 import unittest
 import requests
 import os
+import pytest
 
 
+# 通过 pytest -m "标签名"执行指定的测试用例
+@pytest.mark.haihuadao
 class TestHaiHuaDao(unittest.TestCase):
 
     def setUp(self):
