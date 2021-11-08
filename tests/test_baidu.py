@@ -15,7 +15,7 @@ import pytest
 
 
 # 通过 pytest -m "标签名"执行指定的测试用例
-@pytest.mark.baidu
+@pytest.mark.toTun
 class Baidu(unittest.TestCase):
 
     # 初始化打开浏览器，并打开指定网页
