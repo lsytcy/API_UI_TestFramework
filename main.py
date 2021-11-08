@@ -1,4 +1,3 @@
-import importlib.util
 import os
 import unittest
 from tests.test_to_run import TestToRun
