@@ -6,6 +6,7 @@ from selenium import webdriver
 import unittest
 import time
 import pytest
+import glob
 
 """
 运行Selenium环境准备
@@ -15,7 +16,6 @@ import pytest
 
 
 # 通过 pytest -m "标签名"执行指定的测试用例
-@pytest.mark.toTun
 class Baidu(unittest.TestCase):
 
     # 初始化打开浏览器，并打开指定网页

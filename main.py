@@ -98,8 +98,11 @@ if __name__ == '__main__':
     # 得出测试文件夹下的所有测试用例
     target_file = find_modules_from_folder(test_folder)
     # 直接运行所有的测试用例
-    pytest.main([*target_file, '-v'])  
+    pytest.main([*target_file, '-v'])      
     """
+
+
+
 
 
 

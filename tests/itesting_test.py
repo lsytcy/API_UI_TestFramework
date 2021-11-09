@@ -1,9 +1,10 @@
 import unittest
-
+import pytest
 flag = False
 
 
 # 测试类必须要继承TestCase
+@pytest.mark.toTun
 class ITestingTest(unittest.TestCase):
 
     """"
@@ -25,9 +26,9 @@ class ITestingTest(unittest.TestCase):
     def equal_test(self):
         self.assertEqual(1, 1)
 
-    @unittest.skipIf(flag, "flag为True则skip")
+    @pytest.mark.notToRun
     def test_not_equal(self):
-        self.assertEqual(1, 0)
+        self.assertNotEqual(1, 0)
 
     @unittest.skipUnless(flag, "flag为false则skip")
     def test_not_equal1(self):
