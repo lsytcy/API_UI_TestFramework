@@ -2,6 +2,7 @@ import pytest
 import time
 from appium import webdriver
 from selenium.webdriver.common.by import By
+from appium.webdriver.common.touch_action import TouchAction
 
 
 class TestSearchBar():
@@ -45,3 +46,19 @@ class TestSearchBar():
         #
         # self.driver.get_screenshot_as_file("./screenshot/search2.png")
 
+    def test_touchaction(self):
+        action = TouchAction(self.driver)
+        self.driver.wait_activity(".activity.MainActivity", 10)
+        # 获取屏幕的尺寸
+        window_rect = self.driver.get_window_rect()
+        # 屏幕的宽高
+        width = window_rect["width"]
+        height = window_rect["height"]
+        # 上下滑动线路的X坐标
+        x1 = int(width/2)
+        # 上下滑动的起点和终点的y坐标
+        y_start = int(height * 4/5)
+        y_end = int(height * 1/5)
+        print("window is :", self.driver.get_window_rect())
+        # 从起始点滑动到终点
+        action.press(x=x1, y=y_start).wait(2000).move_to(x=x1, y=y_end).release().perform()

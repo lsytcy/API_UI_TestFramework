@@ -1,6 +1,7 @@
 import time
 import pytest
 from appium import webdriver
+from selenium.webdriver.common.by import By
 
 # '''
 # # 获取时间戳并输出格式化日期
