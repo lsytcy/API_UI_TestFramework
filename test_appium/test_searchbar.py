@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from appium.webdriver.common.touch_action import TouchAction
 
 
-class TestSearchBar():
+class TestSearchBar(object):
 
     def setup(self):
         # 连接设备并打开应用
@@ -18,14 +18,20 @@ class TestSearchBar():
             "dontStopAppOnReset": False,
             "unicodeKeyBoard": True,
             "resetKeyboard": True,
-            "noReset": True
+            "noReset": True,
+
         }
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
 
     def teardown(self):
         self.driver.quit()
 
-    def test_search_hotel(self):
+    @pytest.mark.parametrize('searchkey,', [
+        ('酒店'),
+        ('世界'),
+    ])
+    def test_search_hotel(self, searchkey):
+        self.driver.implicitly_wait(5)
         self.driver.wait_activity(".activity.MainActivity", 10)
         # 定位到首页-搜索框
         find_searchbar = self.driver.find_element(By.ID, "com.hd.smarttour:id/searchBar")
@@ -36,16 +42,18 @@ class TestSearchBar():
         # 输入搜索内容“酒店”
         searchcontentinput = self.driver.find_element(By.ID, "com.hd.smarttour:id/et_search")
         # 输入搜索关键词“酒店”
-        searchcontentinput.send_keys("酒店")
+        searchcontentinput.send_keys(searchkey)
         # 截图保存搜索结果
-        self.driver.get_screenshot_as_file("./screenshot/search1.png")
+        # self.driver.get_screenshot_as_file("./screenshot/search1.png")
         # 定位到别墅酒店，并点击别墅酒店
-        find_villahotel = self.driver.find_element(By.XPATH, '//*[@resource-id="com.hd.smarttour:id/title" and @text="别墅酒店（敬请期待）"]')
+        find_villahotel = self.driver.find_element(By.XPATH, '//*[@resource-id="com.hd.smarttour:id/searchResult"]//.[@resource-id="com.hd.smarttour:id/title"]')
         result = find_villahotel.text
-        assert "别墅酒店" in result
+        print(result)
+        assert searchkey in result
         #
         # self.driver.get_screenshot_as_file("./screenshot/search2.png")
 
+    # @pytest.mark.skip
     def test_touchaction(self):
         action = TouchAction(self.driver)
         self.driver.wait_activity(".activity.MainActivity", 10)
