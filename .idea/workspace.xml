@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test_appium/test_xueqiu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_appium/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_appium/test_searchbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_searchbar.py" afterDir="false" />
@@ -17,11 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_appium/test_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_appium/test_searchbar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="63" column="61" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
+            <state relative-caret-position="571">
+              <caret line="136" column="39" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -39,8 +37,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTMLTestRunner.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/test_appium/test_xueqiu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytest.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pyreadline/py3k_compat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#0#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -121,18 +144,19 @@
         <option value="$PROJECT_DIR$/tests/test_baidu.py" />
         <option value="$PROJECT_DIR$/sample.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/tests/test1.py" />
         <option value="$PROJECT_DIR$/test_scripts/useExcel.py" />
         <option value="$PROJECT_DIR$/test_scripts/usePandas.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/test_appium/test_xueqiu.py" />
         <option value="$PROJECT_DIR$/test_appium/test_search.py" />
         <option value="$PROJECT_DIR$/test_appium/test_searchbar.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="482" />
-    <option name="y" value="3" />
+    <option name="x" value="560" />
+    <option name="y" value="33" />
     <option name="width" value="2012" />
     <option name="height" value="1382" />
   </component>
@@ -354,7 +378,8 @@
       <workItem from="1637549593647" duration="3815000" />
       <workItem from="1637567964875" duration="21406000" />
       <workItem from="1638146599346" duration="1304000" />
-      <workItem from="1638153589828" duration="4490000" />
+      <workItem from="1638153589828" duration="20304000" />
+      <workItem from="1638750734895" duration="14304000" />
     </task>
     <task id="LOCAL-00001" summary="代码合并测试（Mac）">
       <created>1636106173214</created>
@@ -440,22 +465,36 @@
       <option name="project" value="LOCAL" />
       <updated>1637930576331</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1、更新appium模块的TouchAction操作（兼容不同手机）">
+      <created>1638173448060</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1638173448060</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1、添加pytest.mark.parametrize的参数化代码">
+      <created>1638431018663</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1638431018663</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79186000" />
+    <option name="totallyTimeSpent" value="109304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18521462" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18680446" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994877" weight="0.32932693" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49801272" weight="0.3705148" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49801272" weight="0.36817473" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,8 +502,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49880764" weight="0.32917318" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2810016" side_tool="true" visible="true" weight="0.48127925" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.71899843" visible="true" weight="0.48127925" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.28139904" side_tool="true" visible="true" weight="0.42667708" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.7186009" visible="true" weight="0.42667708" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49938422" weight="0.3299293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -519,7 +558,9 @@
     <MESSAGE value="1、添加测试脚本模块" />
     <MESSAGE value="1、添加Appium模块" />
     <MESSAGE value="1、更新appium模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、更新appium模块" />
+    <MESSAGE value="1、更新appium模块的TouchAction操作（兼容不同手机）" />
+    <MESSAGE value="1、添加pytest.mark.parametrize的参数化代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、添加pytest.mark.parametrize的参数化代码" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$useExcel.coverage" NAME="useExcel Coverage Results" MODIFIED="1637223444081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_scripts" />
@@ -527,7 +568,7 @@
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_get_token.coverage" NAME="test_get_token Coverage Results" MODIFIED="1636334187374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_search.coverage" NAME="test_search Coverage Results" MODIFIED="1637635933440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_appium" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1636703182920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_searchbar.coverage" NAME="test_searchbar Coverage Results" MODIFIED="1638170980784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_appium" />
+    <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_searchbar.coverage" NAME="test_searchbar Coverage Results" MODIFIED="1638360064322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_appium" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.ignore" />
@@ -539,13 +580,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test1.py" />
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -621,6 +655,36 @@
     <entry file="file://$PROJECT_DIR$/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_appium/screenshot/search1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_appium/screenshot/search.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_appium/test_xueqiu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pyreadline/py3k_compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_to_run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -666,24 +730,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_appium/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_appium/screenshot/search1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_appium/screenshot/search.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_appium/test_searchbar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="63" column="61" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
+        <state relative-caret-position="571">
+          <caret line="136" column="39" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
