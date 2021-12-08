@@ -9,7 +9,6 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 
 
-
 class TestAddContact(object):
 
     def setup_class(self):
@@ -35,9 +34,11 @@ class TestAddContact(object):
         print("teardown_class")
 
     def setup(self):
+        print('setup_method')
         pass
 
     def teardown(self):
+        print('teardown_method')
         pass
 
     # @pytest.mark.parametrize('searchkey,', [
