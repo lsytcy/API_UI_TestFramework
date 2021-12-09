@@ -122,7 +122,10 @@ class TestAddContact(object):
         # 点击保存按钮
         el_button_save_contact = self.driver.find_element(By.ID, "com.tencent.wework:id/am4")
         el_button_save_contact.click()
-        time.sleep(1)
+        # toast_text = self.driver.find_element(By.XPATH, "//*[@class='android.widget.Toast']").text
+        toast_text = self.driver.find_element(By.XPATH, "//*[contains(@text,'添加成功')]").text
+        print(toast_text)
+        # time.sleep(1)
 
         # 获取保存后的toast文案
         # 返回上一级页面
