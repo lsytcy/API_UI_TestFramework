@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_api/test_api_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/API_UI_TestFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API_UI_TestFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/addresslist_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/addresslist_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/member_invite.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/member_invite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_appium/test_wework1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_wework1.py" afterDir="false" />
     </list>
@@ -23,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="133">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -35,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/addresslist_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="171">
               <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
               <folding>
                 <element signature="e#0#65#0" expanded="true" />
@@ -47,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="323">
               <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -59,8 +58,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_appium/test_wework1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="106" lean-forward="true" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
+            <state relative-caret-position="190">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/contact_add.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            <state relative-caret-position="532">
+              <caret line="34" column="27" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="27" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -80,8 +82,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            <state relative-caret-position="703">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_api/test_api_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_haihuadao.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-779">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,20 +118,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/member_invite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_appium/test_searchbar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="125" column="91" lean-forward="true" selection-start-line="125" selection-start-column="91" selection-end-line="125" selection-end-column="91" />
+            <state relative-caret-position="2223">
+              <caret line="125" column="85" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="85" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -141,20 +167,21 @@
         <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/test_appium/test_xueqiu.py" />
         <option value="$PROJECT_DIR$/test_appium/test_search.py" />
-        <option value="$PROJECT_DIR$/pages/base_page.py" />
         <option value="$PROJECT_DIR$/pages/app.py" />
-        <option value="$PROJECT_DIR$/test_appium/test_wework1.py" />
         <option value="$PROJECT_DIR$/pages/addresslist_page.py" />
         <option value="$PROJECT_DIR$/pages/main.py" />
         <option value="$PROJECT_DIR$/pages/contact_add.py" />
-        <option value="$PROJECT_DIR$/pages/member_invite.py" />
         <option value="$PROJECT_DIR$/test_appium/test_searchbar.py" />
+        <option value="$PROJECT_DIR$/test_appium/test_wework1.py" />
+        <option value="$PROJECT_DIR$/pages/member_invite.py" />
+        <option value="$PROJECT_DIR$/pages/base_page.py" />
+        <option value="$PROJECT_DIR$/test_api/test_api_demo.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="560" />
-    <option name="y" value="33" />
+    <option name="x" value="467" />
+    <option name="y" value="4" />
     <option name="width" value="2012" />
     <option name="height" value="1382" />
   </component>
@@ -183,16 +210,12 @@
             <path>
               <item name="API_UI_TestFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="API_UI_TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="test_appium" type="462c0819:PsiDirectoryNode" />
+              <item name="test_api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_UI_TestFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="API_UI_TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_UI_TestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="test_appium" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,8 +232,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/工作项目文档/接口自动化/api_in_excel_py3-master__liufeihuangbiaojiaojie" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="last_opened_file_path" value="C:/ProgramData/anaconda/python.exe" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -224,29 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_searchbar">
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="API_UI_TestFramework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_api_demo.TestDemo.test_json_demo">
     <configuration name="test_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="API_UI_TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,28 +292,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="useExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="API_UI_TestFramework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_scripts/useExcel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="usePandas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="API_UI_TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -335,13 +314,45 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_api_demo.TestDemo.test_json_demo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="API_UI_TestFramework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api_demo.TestDemo.test_json_demo&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_api_demo.TestDemo.test_json_post" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="API_UI_TestFramework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api_demo.TestDemo.test_json_post&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_api_demo.TestDemo.test_json_demo" />
+        <item itemvalue="Python tests.pytest for test_api_demo.TestDemo.test_json_post" />
         <item itemvalue="Python.test_searchbar" />
         <item itemvalue="Python.test_search" />
         <item itemvalue="Python.usePandas" />
-        <item itemvalue="Python.useExcel" />
-        <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +376,12 @@
       <workItem from="1638153589828" duration="20304000" />
       <workItem from="1638750734895" duration="30689000" />
       <workItem from="1638945043976" duration="3909000" />
-      <workItem from="1638967374381" duration="5073000" />
+      <workItem from="1638967374381" duration="13481000" />
+      <workItem from="1639356295503" duration="2195000" />
+      <workItem from="1639377924779" duration="3926000" />
+      <workItem from="1639391789665" duration="116000" />
+      <workItem from="1639391944571" duration="199000" />
+      <workItem from="1639392263258" duration="899000" />
     </task>
     <task id="LOCAL-00001" summary="代码合并测试（Mac）">
       <created>1636106173214</created>
@@ -486,22 +502,55 @@
       <option name="project" value="LOCAL" />
       <updated>1639013905601</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="1、更新获取Toast的两种方式">
+      <created>1639016370220</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1639016370220</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test_api_demo_TestDemo_test_json_demo - 2021.12.13 at 14h 26m 24s.xml">
+      <configuration name="pytest for test_api_demo.TestDemo.test_json_demo" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_api_demo_TestDemo_test_json_post - 2021.12.13 at 14h 32m 42s.xml">
+      <configuration name="pytest for test_api_demo.TestDemo.test_json_post" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_api_demo_TestDemo_test_json_post - 2021.12.13 at 14h 33m 47s.xml">
+      <configuration name="pytest for test_api_demo.TestDemo.test_json_post" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_api_demo_TestDemo_test_json_post - 2021.12.13 at 14h 34m 09s.xml">
+      <configuration name="pytest for test_api_demo.TestDemo.test_json_post" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_api_demo_TestDemo_test_json_demo - 2021.12.13 at 14h 36m 16s.xml">
+      <configuration name="pytest for test_api_demo.TestDemo.test_json_demo" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_api_demo_TestDemo_test_json_demo - 2021.12.13 at 14h 36m 40s.xml">
+      <configuration name="pytest for test_api_demo.TestDemo.test_json_demo" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_api_demo_TestDemo_test_json_demo - 2021.12.13 at 14h 40m 44s.xml">
+      <configuration name="pytest for test_api_demo.TestDemo.test_json_demo" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_api_demo_TestDemo_test_json_demo - 2021.12.13 at 14h 41m 35s.xml">
+      <configuration name="pytest for test_api_demo.TestDemo.test_json_demo" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134671000" />
+    <option name="totallyTimeSpent" value="150414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1899841" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19960238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994877" weight="0.32932693" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49801272" weight="0.36817473" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.80122954" visible="true" weight="0.46233973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -509,14 +558,15 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49880764" weight="0.32917318" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.28139904" side_tool="true" weight="0.40015602" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7186009" visible="true" weight="0.3697348" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1987705" side_tool="true" visible="true" weight="0.25039002" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7167008" weight="0.48798078" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49938422" weight="0.3299293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="JSON Utils" order="5" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18680446" />
@@ -593,7 +643,8 @@
     <MESSAGE value="1、企业微信实战（添加联系人）&#10;2、在Xpath中使用变量定位" />
     <MESSAGE value="1、PO模式应用，以及对应测试用例的新增" />
     <MESSAGE value="1、PO模式代码完善&#10;2、添加base_page" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、PO模式代码完善&#10;2、添加base_page" />
+    <MESSAGE value="1、更新获取Toast的两种方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、更新获取Toast的两种方式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,18 +661,14 @@
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$usePandas.coverage" NAME="usePandas Coverage Results" MODIFIED="1637634502470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_scripts" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_get_token.coverage" NAME="test_get_token Coverage Results" MODIFIED="1636334187374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_search.coverage" NAME="test_search Coverage Results" MODIFIED="1637635933440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_appium" />
+    <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_demo_TestDemo_test_json_demo.coverage" NAME="pytest for test_api_demo.TestDemo.test_json_demo Coverage Results" MODIFIED="1639377691408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_demo_TestDemo_test_json_post.coverage" NAME="pytest for test_api_demo.TestDemo.test_json_post Coverage Results" MODIFIED="1639377245991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1636703182920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_searchbar.coverage" NAME="test_searchbar Coverage Results" MODIFIED="1638360064322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_appium" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.ignore" />
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/importlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/importlib/__init__.py" />
     <entry file="file://$PROJECT_DIR$/tests/test1.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -653,13 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/appium/webdriver/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/appium/webdriver/webdriver.py" />
     <entry file="file://$PROJECT_DIR$/sample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -701,16 +742,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pyreadline/py3k_compat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pyreadline/py3k_compat.py" />
     <entry file="file://$PROJECT_DIR$/token.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -771,36 +803,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_haihuadao.py">
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/appium/webdriver/common/touch_action.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/appium/webdriver/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/pages/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="133">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="20" selection-end-column="13" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/appium/webdriver/common/touch_action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/appium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/addresslist_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="171">
           <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
             <element signature="e#0#65#0" expanded="true" />
@@ -808,37 +825,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_appium/test_wework1.py">
+    <entry file="file://$PROJECT_DIR$/pages/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="106" lean-forward="true" selection-start-line="9" selection-start-column="106" selection-end-line="9" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/contact_add.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="323">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/main.py">
+    <entry file="file://$PROJECT_DIR$/test_appium/test_wework1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="190">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/contact_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -847,20 +857,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/member_invite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_appium/test_searchbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="125" column="85" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="85" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_appium/test_searchbar.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_haihuadao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="125" column="91" lean-forward="true" selection-start-line="125" selection-start-column="91" selection-end-line="125" selection-end-column="91" />
+        <state relative-caret-position="-779">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_api/test_api_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
