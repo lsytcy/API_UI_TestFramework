@@ -17,6 +17,7 @@ class MemberInvite(BasePage):
         return ContactAdd(self._driver)
 
     def get_toast(self):
-        toast_text = self._driver.find_element(By.XPATH, "//*[contains(@text,'添加成功')]").text
+        toast_text = self._driver.find_element(By.XPATH, "//*[@class='android.Widget.Toast']").text
+        # toast_text = self._driver.find_element(By.XPATH, "//*[contains(@text,'添加成功')]").text
         print(toast_text)
         return toast_text
