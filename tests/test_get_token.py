@@ -27,7 +27,9 @@ def test_get_token():
     url = domain + para
     #print(url)
 
+    # Post请求body传参方式1，data序列化之后放入到data中
     # res = requests.post(url, data=data)
+    # 直接指定json方式的传参，不需要先json.dumps方式序列化
     res = requests.post(url, json=body)
     token = res.json()["result"]["access_token"]
     print(token)

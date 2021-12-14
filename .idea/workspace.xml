@@ -4,7 +4,6 @@
     <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_get_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_get_token.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token.txt" beforeDir="false" afterPath="$PROJECT_DIR$/token.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_api/test_api_wework_create_mem.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="164">
@@ -92,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_get_token.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="304">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="e#17#31#0" expanded="true" />
               </folding>
@@ -119,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_appium/test_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="-211">
               <caret line="4" column="11" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
@@ -346,7 +345,7 @@
       <workItem from="1639391789665" duration="116000" />
       <workItem from="1639391944571" duration="199000" />
       <workItem from="1639392263258" duration="6565000" />
-      <workItem from="1639443991350" duration="4336000" />
+      <workItem from="1639443991350" duration="4530000" />
     </task>
     <task id="LOCAL-00001" summary="代码合并测试（Mac）">
       <created>1636106173214</created>
@@ -488,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639447343811</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="1、添加post请求传参的方式（指定json方式）">
+      <created>1639452925592</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1639452925592</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -524,7 +530,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160416000" />
+    <option name="totallyTimeSpent" value="160610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -630,7 +636,8 @@
     <MESSAGE value="1、PO模式代码完善&#10;2、添加base_page" />
     <MESSAGE value="1、更新获取Toast的两种方式" />
     <MESSAGE value="1、更新格式化输入的两种方式&#10;2、增加企业微信接口的代码&#10;3、通过类方法的调用实现参数关联" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、更新格式化输入的两种方式&#10;2、增加企业微信接口的代码&#10;3、通过类方法的调用实现参数关联" />
+    <MESSAGE value="1、添加post请求传参的方式（指定json方式）" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、添加post请求传参的方式（指定json方式）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -886,13 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_appium/test_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_appium/test_searchbar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1389">
@@ -903,20 +903,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_get_token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
-          <folding>
-            <element signature="e#17#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_api/test_api_wework_create_mem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_appium/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_get_token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="e#17#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
