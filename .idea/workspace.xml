@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="1、更新格式化输入的两种方式&#10;2、增加企业微信接口的代码&#10;3、">
-      <change afterPath="$PROJECT_DIR$/test_api/test_api_wework_create_mem.py" afterDir="false" />
+    <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/member_invite.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/member_invite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_get_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_get_token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token.txt" beforeDir="false" afterPath="$PROJECT_DIR$/token.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_api/test_api_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/addresslist_page.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,7 +29,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_api/test_api_wework_create_mem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
+            <state relative-caret-position="164">
               <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
             </state>
           </provider>
@@ -95,10 +83,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_appium/test_searchbar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2451">
+            <state relative-caret-position="1389">
               <caret line="137" column="66" selection-start-line="137" selection-start-column="66" selection-end-line="137" selection-end-column="66" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_get_token.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+              <folding>
+                <element signature="e#17#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,7 +142,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.ignore" />
-        <option value="$PROJECT_DIR$/tests/test_get_token.py" />
         <option value="$PROJECT_DIR$/tests/test_haihuadao.py" />
         <option value="$PROJECT_DIR$/common/html_reporter.py" />
         <option value="$PROJECT_DIR$/tests/itesting_test.py" />
@@ -168,6 +167,7 @@
         <option value="C:/ProgramData/anaconda/Lib/site-packages/pyreadline/py3k_compat.py" />
         <option value="C:/ProgramData/anaconda/Lib/site-packages/pyreadline/modes/basemode.py" />
         <option value="$PROJECT_DIR$/test_api/test_api_wework_create_mem.py" />
+        <option value="$PROJECT_DIR$/tests/test_get_token.py" />
       </list>
     </option>
   </component>
@@ -196,17 +196,7 @@
             <path>
               <item name="API_UI_TestFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="API_UI_TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_UI_TestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_UI_TestFramework" type="462c0819:PsiDirectoryNode" />
               <item name="test_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_UI_TestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_UI_TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="test_appium" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +215,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/ProgramData/anaconda/python.exe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,23 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem">
-    <configuration name="pytest for test_api_demo.TestDemo.test_json_demo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="API_UI_TestFramework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_demo.TestDemo.test_json_demo&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_get_token.test_get_token">
     <configuration name="pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="API_UI_TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -320,13 +294,29 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_get_token.test_get_token" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="API_UI_TestFramework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_get_token.test_get_token&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_get_token.test_get_token" />
         <item itemvalue="Python tests.pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem" />
         <item itemvalue="Python tests.pytest for test_api_wework_create_mem.test_get_mem" />
         <item itemvalue="Python tests.pytest for test_api_wework_create_mem.TestWeworkAPI.test_get_mem" />
         <item itemvalue="Python tests.pytest for test_api_wework_create_mem.TestWeworkAPI.test_create_mem" />
-        <item itemvalue="Python tests.pytest for test_api_demo.TestDemo.test_json_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +346,7 @@
       <workItem from="1639391789665" duration="116000" />
       <workItem from="1639391944571" duration="199000" />
       <workItem from="1639392263258" duration="6565000" />
-      <workItem from="1639443991350" duration="1993000" />
+      <workItem from="1639443991350" duration="4336000" />
     </task>
     <task id="LOCAL-00001" summary="代码合并测试（Mac）">
       <created>1636106173214</created>
@@ -491,16 +481,17 @@
       <option name="project" value="LOCAL" />
       <updated>1639397716162</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="1、更新格式化输入的两种方式&#10;2、增加企业微信接口的代码&#10;3、通过类方法的调用实现参数关联">
+      <created>1639447343811</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1639447343811</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_api_wework_create_mem_TestWeworkAPI_test_get_mem - 2021.12.14 at 09h 14m 30s.xml">
-      <configuration name="pytest for test_api_wework_create_mem.TestWeworkAPI.test_get_mem" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_api_wework_create_mem_TestWeworkAPI_test_get_mem - 2021.12.14 at 09h 15m 08s.xml">
-      <configuration name="pytest for test_api_wework_create_mem.TestWeworkAPI.test_get_mem" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_api_wework_create_mem_TestWeWorkAPI_test_get_mem - 2021.12.14 at 09h 17m 29s.xml">
       <configuration name="pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem" configurationId="tests" />
     </history-entry>
@@ -525,20 +516,26 @@
     <history-entry file="pytest_for_test_api_wework_create_mem_TestWeWorkAPI_test_get_mem - 2021.12.14 at 09h 26m 50s.xml">
       <configuration name="pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_get_token_test_get_token - 2021.12.14 at 10h 30m 36s.xml">
+      <configuration name="pytest for test_get_token.test_get_token" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_get_token_test_get_token - 2021.12.14 at 10h 31m 29s.xml">
+      <configuration name="pytest for test_get_token.test_get_token" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158073000" />
+    <option name="totallyTimeSpent" value="160416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20119284" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20119284" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994877" weight="0.32932693" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.80079526" visible="true" weight="0.35179406" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80079526" visible="true" weight="0.41809672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -547,7 +544,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49880764" weight="0.32917318" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.19920477" side_tool="true" weight="0.5826833" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7167008" weight="0.48798078" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7167008" weight="0.34867394" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49938422" weight="0.3299293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -632,7 +629,8 @@
     <MESSAGE value="1、PO模式应用，以及对应测试用例的新增" />
     <MESSAGE value="1、PO模式代码完善&#10;2、添加base_page" />
     <MESSAGE value="1、更新获取Toast的两种方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、更新获取Toast的两种方式" />
+    <MESSAGE value="1、更新格式化输入的两种方式&#10;2、增加企业微信接口的代码&#10;3、通过类方法的调用实现参数关联" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、更新格式化输入的两种方式&#10;2、增加企业微信接口的代码&#10;3、通过类方法的调用实现参数关联" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -646,15 +644,16 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$useExcel.coverage" NAME="useExcel Coverage Results" MODIFIED="1637223444081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_scripts" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$usePandas.coverage" NAME="usePandas Coverage Results" MODIFIED="1637634502470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_scripts" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_get_token.coverage" NAME="test_get_token Coverage Results" MODIFIED="1636334187374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_search.coverage" NAME="test_search Coverage Results" MODIFIED="1637635933440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_appium" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_wework_create_mem_TestWeworkAPI_test_create_mem.coverage" NAME="pytest for test_api_wework_create_mem.TestWeworkAPI.test_create_mem Coverage Results" MODIFIED="1639403073457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/API_UI_TestFramework$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1636703182920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/API_UI_TestFramework$usePandas.coverage" NAME="usePandas Coverage Results" MODIFIED="1637634502470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_scripts" />
+    <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_get_token.coverage" NAME="test_get_token Coverage Results" MODIFIED="1636334187374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_demo_TestDemo_test_json_demo.coverage" NAME="pytest for test_api_demo.TestDemo.test_json_demo Coverage Results" MODIFIED="1639377691408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_wework_create_mem_TestWeWorkAPI_test_get_mem.coverage" NAME="pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem Coverage Results" MODIFIED="1639445205480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_wework_create_mem_test_get_mem.coverage" NAME="pytest for test_api_wework_create_mem.test_get_mem Coverage Results" MODIFIED="1639445163716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
+    <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_get_token_test_get_token.coverage" NAME="pytest for test_get_token.test_get_token Coverage Results" MODIFIED="1639449084998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_demo_TestDemo_test_json_post.coverage" NAME="pytest for test_api_demo.TestDemo.test_json_post Coverage Results" MODIFIED="1639377245991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1636703182920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_searchbar.coverage" NAME="test_searchbar Coverage Results" MODIFIED="1638360064322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_appium" />
     <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_wework_create_mem_TestWeworkAPI_test_get_mem.coverage" NAME="pytest for test_api_wework_create_mem.TestWeworkAPI.test_get_mem Coverage Results" MODIFIED="1639444503516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
   </component>
@@ -803,16 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_get_token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
-          <folding>
-            <element signature="e#17#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_haihuadao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-779">
@@ -887,16 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_appium/test_searchbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2451">
-          <caret line="137" column="66" selection-start-line="137" selection-start-column="66" selection-end-line="137" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_to_run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -914,9 +893,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_appium/test_searchbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1389">
+          <caret line="137" column="66" selection-start-line="137" selection-start-column="66" selection-end-line="137" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_get_token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="e#17#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_api/test_api_wework_create_mem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="164">
           <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
         </state>
       </provider>

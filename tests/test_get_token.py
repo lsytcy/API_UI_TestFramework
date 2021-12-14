@@ -27,8 +27,10 @@ def test_get_token():
     url = domain + para
     #print(url)
 
-    res = requests.post(url, data=data)
+    # res = requests.post(url, data=data)
+    res = requests.post(url, json=body)
     token = res.json()["result"]["access_token"]
+    print(token)
     token_file_base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     token_file_name = "token.txt"
     token_file_path = os.path.join(token_file_base, token_file_name)
