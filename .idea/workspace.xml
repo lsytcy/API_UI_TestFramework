@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="1、添加post请求传参的方式的说明">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/090423351.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_api/test_api_wework_para.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/API_UI_TestFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API_UI_TestFramework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="1、添加企业微信接口参数化内容">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api/test_api_wework_para.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api/test_api_wework_para.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,9 +124,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_api_wework_para.test_delete">
+  <component name="RunManager" selected="Python tests.pytest for test_api_wework_para.test_all">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="API_UI_TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,6 +141,23 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_api_wework_para.test_all" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="API_UI_TestFramework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\ProgramData\anaconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api_wework_para.test_all&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -178,23 +192,6 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_api_wework_para.test_delete&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_api_wework_para.test_get" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="API_UI_TestFramework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\ProgramData\anaconda\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_wework_para.test_get&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -252,18 +249,18 @@
     <list>
       <item itemvalue="Python tests.pytest for test_get_token.test_get_token" />
       <item itemvalue="Python tests.pytest for test_api_wework_para.test_token" />
-      <item itemvalue="Python tests.pytest for test_api_wework_para.test_get" />
       <item itemvalue="Python tests.pytest for test_api_wework_para.test_create" />
       <item itemvalue="Python tests.pytest for test_api_wework_para.test_update" />
       <item itemvalue="Python tests.pytest for test_api_wework_para.test_delete" />
+      <item itemvalue="Python tests.pytest for test_api_wework_para.test_all" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_api_wework_para.test_all" />
+        <item itemvalue="Python tests.pytest for test_api_wework_para.test_token" />
         <item itemvalue="Python tests.pytest for test_api_wework_para.test_delete" />
         <item itemvalue="Python tests.pytest for test_api_wework_para.test_update" />
         <item itemvalue="Python tests.pytest for test_api_wework_para.test_create" />
-        <item itemvalue="Python tests.pytest for test_api_wework_para.test_get" />
-        <item itemvalue="Python tests.pytest for test_api_wework_para.test_token" />
       </list>
     </recent_temporary>
   </component>
@@ -457,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639453088173</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="1、添加企业微信接口参数化内容">
+      <created>1639551554652</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1639551554652</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -570,7 +574,8 @@
     <MESSAGE value="1、更新格式化输入的两种方式&#10;2、增加企业微信接口的代码&#10;3、通过类方法的调用实现参数关联" />
     <MESSAGE value="1、添加post请求传参的方式（指定json方式）" />
     <MESSAGE value="1、添加post请求传参的方式的说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、添加post请求传参的方式的说明" />
+    <MESSAGE value="1、添加企业微信接口参数化内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、添加企业微信接口参数化内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

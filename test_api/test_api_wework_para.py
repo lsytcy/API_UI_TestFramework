@@ -1,3 +1,4 @@
+import re
 import requests
 import pytest
 
@@ -36,11 +37,11 @@ def test_create(userid, name, mobile):
     return res.json()
 
 
-def test_update():
+def test_update(userid, name, mobile):
     data = {
-        "userid": "zhangsan",
-        "name": "小弟弟",
-        "mobile": "+86 13800001234",
+        "userid": userid,
+        "name": name,
+        "mobile": mobile,
         "department": [1]
     }
     url = f"https://qyapi.weixin.qq.com/cgi-bin/user/update?access_token={test_token()}"
@@ -49,19 +50,31 @@ def test_update():
     return res.json()
 
 
-def test_delete():
-    userid = 'zhangsan'
+def test_delete(userid):
+    # userid = 'zhangsan'
     url = f"https://qyapi.weixin.qq.com/cgi-bin/user/delete?access_token={test_token()}&userid={userid}"
     res = requests.get(url)
     print(res.json)
+    return res.json()
 
 
 @pytest.mark.parametrize("userid, name, mobile",
-                         [("zhangsan", "小红", "18912345678")])
+                         [("wangwu", "小黄", "18911122233")])
 def test_all(userid, name, mobile):
     # test_create(userid, name, mobile)
-    assert "created" == test_create(userid, name, mobile)['errmsg']
-    assert name == test_get(userid)['name']
+    try:
+        assert "created" == test_create(userid, name, mobile)['errmsg']
+    except AssertionError as e:
+        if "existed" in e.__str__():
+            re_userid = re.findall(":(.*?)'", e.__str__())[0]
+            print(re.findall(":(.*)'", e.__str__()))
+            assert "deleted" == test_delete(re_userid)['errmsg']
+            assert 60111 == test_get(userid)['errcode']
+    # assert "created" == test_create(userid, name, mobile)['errmsg']
+    # assert name == test_get(userid)['name']
+    # assert "updated" == test_update(userid, 'GGG', mobile)['errmsg']
+    # assert "deleted" == test_delete(userid)['errmsg']
+    # assert 60111 == test_get(userid)['errcode']
 
 
 
