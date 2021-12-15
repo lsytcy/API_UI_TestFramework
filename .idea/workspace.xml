@@ -1,130 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="">
+    <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="1、添加post请求传参的方式的说明">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/090423351.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_api/test_api_wework_para.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/API_UI_TestFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API_UI_TestFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_get_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_get_token.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/addresslist_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_api/test_api_wework_create_mem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/ProgramData/anaconda/Lib/site-packages/pyreadline/modes/basemode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9519">
-              <caret line="511" column="30" selection-start-line="511" selection-start-column="30" selection-end-line="511" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_appium/test_wework1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/contact_add.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="34" column="27" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/base_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_appium/test_searchbar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1389">
-              <caret line="137" column="66" selection-start-line="137" selection-start-column="66" selection-end-line="137" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_get_token.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-              <folding>
-                <element signature="e#17#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_to_run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_appium/test_search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-211">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -167,12 +68,19 @@
         <option value="C:/ProgramData/anaconda/Lib/site-packages/pyreadline/modes/basemode.py" />
         <option value="$PROJECT_DIR$/test_api/test_api_wework_create_mem.py" />
         <option value="$PROJECT_DIR$/tests/test_get_token.py" />
+        <option value="$PROJECT_DIR$/test_api/test_api_wework.py" />
+        <option value="$PROJECT_DIR$/test_api/test_api_wework.para.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/test_api/test_api_wework_para.py" />
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="467" />
-    <option name="y" value="4" />
+    <option name="x" value="152" />
+    <option name="y" value="-18" />
     <option name="width" value="2012" />
     <option name="height" value="1382" />
   </component>
@@ -197,6 +105,11 @@
               <item name="API_UI_TestFramework" type="462c0819:PsiDirectoryNode" />
               <item name="test_api" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="API_UI_TestFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="API_UI_TestFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="test_appium" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,87 +126,113 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/ProgramData/anaconda/python.exe" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python tests.pytest for test_get_token.test_get_token">
-    <configuration name="pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_api_wework_para.test_delete">
+    <configuration default="true" type="tests" factoryName="py.test">
       <module name="API_UI_TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\ProgramData\anaconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_api_wework_para.test_create" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="API_UI_TestFramework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\ProgramData\anaconda\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_wework_create_mem.TestWeWorkAPI.test_get_mem&quot;" />
+      <option name="_new_target" value="&quot;test_api_wework_para.test_create&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_api_wework_create_mem.TestWeworkAPI.test_create_mem" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_api_wework_para.test_delete" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="API_UI_TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\ProgramData\anaconda\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_wework_create_mem.TestWeworkAPI.test_create_mem&quot;" />
+      <option name="_new_target" value="&quot;test_api_wework_para.test_delete&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_api_wework_create_mem.TestWeworkAPI.test_get_mem" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_api_wework_para.test_get" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="API_UI_TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\ProgramData\anaconda\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_wework_create_mem.TestWeworkAPI.test_get_mem&quot;" />
+      <option name="_new_target" value="&quot;test_api_wework_para.test_get&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_api_wework_create_mem.test_get_mem" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_api_wework_para.test_token" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="API_UI_TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\ProgramData\anaconda\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_wework_create_mem.test_get_mem&quot;" />
+      <option name="_new_target" value="&quot;test_api_wework_para.test_token&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_get_token.test_get_token" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_api_wework_para.test_update" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="API_UI_TestFramework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\ProgramData\anaconda\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_api_wework_para.test_update&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_get_token.test_get_token" type="tests" factoryName="py.test" singleton="false" nameIsGenerated="true">
       <module name="API_UI_TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,22 +243,31 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_get_token.test_get_token&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest for test_get_token.test_get_token" />
+      <item itemvalue="Python tests.pytest for test_api_wework_para.test_token" />
+      <item itemvalue="Python tests.pytest for test_api_wework_para.test_get" />
+      <item itemvalue="Python tests.pytest for test_api_wework_para.test_create" />
+      <item itemvalue="Python tests.pytest for test_api_wework_para.test_update" />
+      <item itemvalue="Python tests.pytest for test_api_wework_para.test_delete" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_get_token.test_get_token" />
-        <item itemvalue="Python tests.pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem" />
-        <item itemvalue="Python tests.pytest for test_api_wework_create_mem.test_get_mem" />
-        <item itemvalue="Python tests.pytest for test_api_wework_create_mem.TestWeworkAPI.test_get_mem" />
-        <item itemvalue="Python tests.pytest for test_api_wework_create_mem.TestWeworkAPI.test_create_mem" />
+        <item itemvalue="Python tests.pytest for test_api_wework_para.test_delete" />
+        <item itemvalue="Python tests.pytest for test_api_wework_para.test_update" />
+        <item itemvalue="Python tests.pytest for test_api_wework_para.test_create" />
+        <item itemvalue="Python tests.pytest for test_api_wework_para.test_get" />
+        <item itemvalue="Python tests.pytest for test_api_wework_para.test_token" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -345,7 +293,15 @@
       <workItem from="1639391789665" duration="116000" />
       <workItem from="1639391944571" duration="199000" />
       <workItem from="1639392263258" duration="6565000" />
-      <workItem from="1639443991350" duration="4530000" />
+      <workItem from="1639443991350" duration="13709000" />
+      <workItem from="1639531017799" duration="619000" />
+      <workItem from="1639535867788" duration="1013000" />
+      <workItem from="1639538069687" duration="568000" />
+      <workItem from="1639538665110" duration="213000" />
+      <workItem from="1639538904329" duration="451000" />
+      <workItem from="1639539509127" duration="1199000" />
+      <workItem from="1639549509778" duration="71000" />
+      <workItem from="1639549604017" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="代码合并测试（Mac）">
       <created>1636106173214</created>
@@ -494,54 +450,60 @@
       <option name="project" value="LOCAL" />
       <updated>1639452925592</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="1、添加post请求传参的方式的说明">
+      <created>1639453088173</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1639453088173</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_api_wework_create_mem_TestWeWorkAPI_test_get_mem - 2021.12.14 at 09h 17m 29s.xml">
-      <configuration name="pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem" configurationId="tests" />
+    <history-entry file="pytest_for_test_api_wework_para_test_get - 2021.12.14 at 20h 38m 31s.xml">
+      <configuration name="pytest for test_api_wework_para.test_get" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_api_wework_create_mem_TestWeWorkAPI_test_get_mem - 2021.12.14 at 09h 19m 24s.xml">
-      <configuration name="pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem" configurationId="tests" />
+    <history-entry file="pytest_for_test_api_wework_para_test_create - 2021.12.14 at 20h 39m 04s.xml">
+      <configuration name="pytest for test_api_wework_para.test_create" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_api_wework_create_mem_test_get_mem - 2021.12.14 at 09h 21m 30s.xml">
-      <configuration name="pytest for test_api_wework_create_mem.test_get_mem" configurationId="tests" />
+    <history-entry file="pytest_for_test_api_wework_para_test_create - 2021.12.14 at 20h 47m 06s.xml">
+      <configuration name="pytest for test_api_wework_para.test_create" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_api_wework_create_mem_test_get_mem - 2021.12.14 at 09h 21m 51s.xml">
-      <configuration name="pytest for test_api_wework_create_mem.test_get_mem" configurationId="tests" />
+    <history-entry file="pytest_for_test_api_wework_para_test_update - 2021.12.14 at 20h 53m 18s.xml">
+      <configuration name="pytest for test_api_wework_para.test_update" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_api_wework_create_mem_test_get_mem - 2021.12.14 at 09h 24m 22s.xml">
-      <configuration name="pytest for test_api_wework_create_mem.test_get_mem" configurationId="tests" />
+    <history-entry file="pytest_for_test_api_wework_para_test_delete - 2021.12.15 at 08h 57m 55s.xml">
+      <configuration name="pytest for test_api_wework_para.test_delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_api_wework_create_mem_test_get_mem - 2021.12.14 at 09h 26m 08s.xml">
-      <configuration name="pytest for test_api_wework_create_mem.test_get_mem" configurationId="tests" />
+    <history-entry file="pytest_for_test_api_wework_para_test_update - 2021.12.15 at 08h 58m 25s.xml">
+      <configuration name="pytest for test_api_wework_para.test_update" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_api_wework_create_mem_TestWeWorkAPI_test_get_mem - 2021.12.14 at 09h 26m 42s.xml">
-      <configuration name="pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem" configurationId="tests" />
+    <history-entry file="pytest_for_test_api_wework_para_test_delete - 2021.12.15 at 09h 00m 19s.xml">
+      <configuration name="pytest for test_api_wework_para.test_delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_api_wework_create_mem_TestWeWorkAPI_test_get_mem - 2021.12.14 at 09h 26m 50s.xml">
-      <configuration name="pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem" configurationId="tests" />
+    <history-entry file="pytest_for_test_api_wework_para_test_delete - 2021.12.15 at 09h 10m 31s.xml">
+      <configuration name="pytest for test_api_wework_para.test_delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_get_token_test_get_token - 2021.12.14 at 10h 30m 36s.xml">
-      <configuration name="pytest for test_get_token.test_get_token" configurationId="tests" />
+    <history-entry file="pytest_for_test_api_wework_para_test_delete - 2021.12.15 at 09h 11m 28s.xml">
+      <configuration name="pytest for test_api_wework_para.test_delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_get_token_test_get_token - 2021.12.14 at 10h 31m 29s.xml">
-      <configuration name="pytest for test_get_token.test_get_token" configurationId="tests" />
+    <history-entry file="pytest_for_test_api_wework_para_test_delete - 2021.12.15 at 09h 12m 05s.xml">
+      <configuration name="pytest for test_api_wework_para.test_delete" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160610000" />
+    <option name="totallyTimeSpent" value="174000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20119284" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2139165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994877" weight="0.32932693" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.80079526" visible="true" weight="0.41809672" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7996024" weight="0.41575664" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -549,39 +511,16 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49880764" weight="0.32917318" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.19920477" side_tool="true" weight="0.5826833" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7167008" weight="0.34867394" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49938422" weight="0.3299293" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.28508946" side_tool="true" visible="true" weight="0.34867394" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7149105" visible="true" weight="0.34867394" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.73956263" weight="0.32839313" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32962227" />
       <window_info anchor="right" id="JSON Utils" order="5" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18680446" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994877" weight="0.32932693" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49801272" weight="0.36817473" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49880764" weight="0.32917318" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.28139904" side_tool="true" weight="0.40015602" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7186009" visible="true" weight="0.44071764" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49938422" weight="0.3299293" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -591,14 +530,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -637,7 +569,8 @@
     <MESSAGE value="1、更新获取Toast的两种方式" />
     <MESSAGE value="1、更新格式化输入的两种方式&#10;2、增加企业微信接口的代码&#10;3、通过类方法的调用实现参数关联" />
     <MESSAGE value="1、添加post请求传参的方式（指定json方式）" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、添加post请求传参的方式（指定json方式）" />
+    <MESSAGE value="1、添加post请求传参的方式的说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、添加post请求传参的方式的说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -648,21 +581,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$useExcel.coverage" NAME="useExcel Coverage Results" MODIFIED="1637223444081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_scripts" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_search.coverage" NAME="test_search Coverage Results" MODIFIED="1637635933440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_appium" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_wework_create_mem_TestWeworkAPI_test_create_mem.coverage" NAME="pytest for test_api_wework_create_mem.TestWeworkAPI.test_create_mem Coverage Results" MODIFIED="1639403073457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1636703182920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$usePandas.coverage" NAME="usePandas Coverage Results" MODIFIED="1637634502470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_scripts" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_get_token.coverage" NAME="test_get_token Coverage Results" MODIFIED="1636334187374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_demo_TestDemo_test_json_demo.coverage" NAME="pytest for test_api_demo.TestDemo.test_json_demo Coverage Results" MODIFIED="1639377691408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_wework_create_mem_TestWeWorkAPI_test_get_mem.coverage" NAME="pytest for test_api_wework_create_mem.TestWeWorkAPI.test_get_mem Coverage Results" MODIFIED="1639445205480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_wework_create_mem_test_get_mem.coverage" NAME="pytest for test_api_wework_create_mem.test_get_mem Coverage Results" MODIFIED="1639445163716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_get_token_test_get_token.coverage" NAME="pytest for test_get_token.test_get_token Coverage Results" MODIFIED="1639449084998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_demo_TestDemo_test_json_post.coverage" NAME="pytest for test_api_demo.TestDemo.test_json_post Coverage Results" MODIFIED="1639377245991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$test_searchbar.coverage" NAME="test_searchbar Coverage Results" MODIFIED="1638360064322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_appium" />
-    <SUITE FILE_PATH="coverage/API_UI_TestFramework$pytest_for_test_api_wework_create_mem_TestWeworkAPI_test_get_mem.coverage" NAME="pytest for test_api_wework_create_mem.TestWeworkAPI.test_get_mem Coverage Results" MODIFIED="1639444503516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_api" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.ignore" />
@@ -695,13 +613,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_appium/screenshot/search.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_appium/test_xueqiu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
@@ -853,23 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_appium/test_wework1.py">
+    <entry file="file://$PROJECT_DIR$/test_api/test_api_wework_create_mem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/contact_add.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -879,6 +777,26 @@
           <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_appium/test_searchbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_get_token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <element signature="e#17#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -893,39 +811,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_appium/test_searchbar.py">
+    <entry file="file://$PROJECT_DIR$/test_appium/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1389">
-          <caret line="137" column="66" selection-start-line="137" selection-start-column="66" selection-end-line="137" selection-end-column="66" />
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_appium/test_xueqiu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_appium/test_wework1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/contact_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_api/test_api_wework_create_mem.py">
+    <entry file="file://$PROJECT_DIR$/test_api/test_api_wework_para.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_appium/test_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_get_token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="912">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding>
-            <element signature="e#17#31#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
