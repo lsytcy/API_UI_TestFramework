@@ -19,6 +19,7 @@ print(sheet_names)
 # 取第一张表中的A1单元格的文本
 # print(sheet1["A1"].value)
 
-# for row in sheet1.iter_rows(min_col=1, max_col=3, min_row=1, max_row=1):
-#     for cell in row:
-#         print(cell.coordinate, cell.value)
+for row in sheet1.iter_rows(min_col=1, max_col=3, min_row=1, max_row=1):
+    for cell in row:
+        print(cell.coordinate, cell.value)
+        print(type(cell.coordinate))
