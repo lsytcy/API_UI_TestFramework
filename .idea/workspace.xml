@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="1、添加企业微信接口参数化内容">
+    <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="1、添加异常捕获的代码">
+      <change afterPath="$PROJECT_DIR$/test_appium/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_api/test_api_wework_para.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_api/test_api_wework_para.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_scripts/useExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/useExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,9 @@
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://C:/ProgramData/anaconda/Lib/site-packages/pytest/__init__.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -74,6 +81,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="152" />
@@ -124,9 +134,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_api_wework_para.test_all">
+  <component name="RunManager" selected="Python tests.pytest for test_api_wework_para.test_create_data">
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="API_UI_TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,7 +171,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_api_wework_para.test_create" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_api_wework_para.test_create_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="API_UI_TestFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,7 +184,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_api_wework_para.test_create&quot;" />
+      <option name="_new_target" value="&quot;test_api_wework_para.test_create_data&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -249,18 +259,18 @@
     <list>
       <item itemvalue="Python tests.pytest for test_get_token.test_get_token" />
       <item itemvalue="Python tests.pytest for test_api_wework_para.test_token" />
-      <item itemvalue="Python tests.pytest for test_api_wework_para.test_create" />
       <item itemvalue="Python tests.pytest for test_api_wework_para.test_update" />
       <item itemvalue="Python tests.pytest for test_api_wework_para.test_delete" />
       <item itemvalue="Python tests.pytest for test_api_wework_para.test_all" />
+      <item itemvalue="Python tests.pytest for test_api_wework_para.test_create_data" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_api_wework_para.test_create_data" />
         <item itemvalue="Python tests.pytest for test_api_wework_para.test_all" />
         <item itemvalue="Python tests.pytest for test_api_wework_para.test_token" />
         <item itemvalue="Python tests.pytest for test_api_wework_para.test_delete" />
         <item itemvalue="Python tests.pytest for test_api_wework_para.test_update" />
-        <item itemvalue="Python tests.pytest for test_api_wework_para.test_create" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639551554652</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="1、添加异常捕获的代码">
+      <created>1639571751810</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1639571751810</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -575,7 +592,8 @@
     <MESSAGE value="1、添加post请求传参的方式（指定json方式）" />
     <MESSAGE value="1、添加post请求传参的方式的说明" />
     <MESSAGE value="1、添加企业微信接口参数化内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、添加企业微信接口参数化内容" />
+    <MESSAGE value="1、添加异常捕获的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、添加异常捕获的代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -583,6 +601,11 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pages/app.py</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/ProgramData/anaconda/Lib/site-packages/pytest/__init__.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
