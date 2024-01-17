@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="1、PO模式代码完善&#10;2、添加base_page">
-      <change afterPath="$PROJECT_DIR$/test_api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_api/test_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_scripts/merge_all.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/torch_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/API_UI_TestFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API_UI_TestFramework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -113,7 +111,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../恒大自动化/api_in_excel_py3-master__liufeihuangbiaojiaojie" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="Python tests.pytest for test_demo.TestDemo.test_hgwz_json">
     <configuration name="test_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -128,6 +128,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="F:\PycharmProjects\API_UI_TestFramework\test_api\test_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -146,6 +147,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
@@ -162,6 +164,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
@@ -178,6 +181,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
@@ -194,6 +198,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
@@ -232,6 +237,10 @@
       <workItem from="1638750734895" duration="30689000" />
       <workItem from="1638945043976" duration="3909000" />
       <workItem from="1638967374381" duration="5073000" />
+      <workItem from="1683203704095" duration="140000" />
+      <workItem from="1683623988023" duration="1049000" />
+      <workItem from="1683626449043" duration="64000" />
+      <workItem from="1705500162135" duration="441000" />
     </task>
     <task id="LOCAL-00001" summary="代码合并测试（Mac）">
       <created>1636106173214</created>
@@ -409,7 +418,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
