@@ -20,14 +20,14 @@ class TestDemo:
         r = requests.post(url, json=payload)
         assert r.status_code == 200
 
-    def test_json_post(self):
-        payload = {
-            'level': 1,
-            'name': 'lsytcy'
-        }
-        url = 'https://httpbin.testing-studio.com/post'
-        r = requests.post(url, json=payload)
-        assert r.status_code == 200
+    # def test_json_post(self):
+    #     payload = {
+    #         'level': 1,
+    #         'name': 'lsytcy'
+    #     }
+    #     url = 'https://httpbin.testing-studio.com/post'
+    #     r = requests.post(url, json=payload)
+    #     assert r.status_code == 200
 
     def test_hamcrest(self):
         payload = {

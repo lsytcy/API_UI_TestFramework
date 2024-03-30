@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="1、增加MyObservatory API测试代码">
-      <change afterPath="$PROJECT_DIR$/test_data/testexcel.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_data/testxls.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_scripts/usexls.py" afterDir="false" />
+    <list default="true" id="47cdb1e3-36d6-47d6-a8ca-2b1ebb9b136c" name="Default Changelist" comment="1、新增testExcel测试代码">
+      <change afterPath="$PROJECT_DIR$/tests/test_api/test_api_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_selenium/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/API_UI_TestFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/API_UI_TestFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_appium/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_appium/test_xueqiu.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_xueqiu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_scripts/merge_all.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/merge_all.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_scripts/useExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_scripts/useExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api/test_api_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/test_api_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api/test_api_wework_create_mem.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/test_api_wework_create_mem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api/test_api_wework_para.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/test_api_wework_para.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api/test_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/test_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_api/test_observatory_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/test_observatory_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_appium/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_appium/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_myobservatory_ tomorrow_weather_forecast.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_appium/test_myobservatory_ tomorrow_weather_forecast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_appium/test_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_searchbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_appium/test_searchbar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_wework1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_appium/test_wework1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_xueqiu.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_appium/test_xueqiu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_selenium/test_baidu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_get_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/test_get_token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_haihuadao.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/test_haihuadao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +46,12 @@
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lsytcy&quot;
+  }
+}</component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -36,6 +59,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="aad98f61-de48-4d32-9ea1-0a40f1dcdc47" />
+        <option name="url" value="https://github.com/lsytcy/API_UI_TestFramework.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -66,6 +97,12 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="560" />
     <option name="y" value="33" />
@@ -118,26 +155,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_data" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for test_api_demo.TestDemo.test_json_post.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_demo.TestDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_demo.TestDemo.test_get.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_demo.TestDemo.test_post_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_api_get.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_demo.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.useExcel.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Install/python3/Lib&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\PycharmProjects\API_UI_TestFramework\test_data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\API_UI_TestFramework\tests\test_selenium" />
+      <recent name="F:\PycharmProjects\API_UI_TestFramework\tests\test_api" />
+      <recent name="F:\PycharmProjects\API_UI_TestFramework\tests" />
       <recent name="F:\PycharmProjects\API_UI_TestFramework\test_data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.useExcel">
+  <component name="RunManager" selected="Python tests.pytest in test_api_get.py">
     <configuration name="useExcel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="API_UI_TestFramework" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -157,79 +205,97 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in itesting_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tests.test_api.test_demo.TestDemo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="API_UI_TestFramework" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/itesting_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;tests.test_api.test_demo.TestDemo&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_api_demo.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for tests.test_api.test_demo.TestDemo.test_post_form" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="API_UI_TestFramework" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_api/test_api_demo.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;tests.test_api.test_demo.TestDemo.test_post_form&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_baidu.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_api_get.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="API_UI_TestFramework" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_baidu.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_api/test_api_get.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_demo.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="API_UI_TestFramework" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_api/test_demo.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_api/test_demo.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.useExcel" />
+      <item itemvalue="Python tests.pytest for tests.test_api.test_demo.TestDemo" />
+      <item itemvalue="Python tests.pytest for tests.test_api.test_demo.TestDemo.test_post_form" />
+      <item itemvalue="Python tests.pytest in test_api_get.py" />
+      <item itemvalue="Python tests.pytest in test_demo.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.useExcel" />
-        <item itemvalue="Python tests.pytest in itesting_test.py" />
-        <item itemvalue="Python tests.pytest in test_baidu.py" />
-        <item itemvalue="Python tests.pytest in test_api_demo.py" />
+        <item itemvalue="Python tests.pytest in test_api_get.py" />
         <item itemvalue="Python tests.pytest in test_demo.py" />
+        <item itemvalue="Python.useExcel" />
+        <item itemvalue="Python tests.pytest for tests.test_api.test_demo.TestDemo" />
+        <item itemvalue="Python tests.pytest for tests.test_api.test_demo.TestDemo.test_post_form" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -400,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640533495130</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="1、新增testExcel测试代码">
+      <created>1711704343528</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711704343528</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -460,15 +533,6 @@
     <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -483,7 +547,15 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -505,7 +577,8 @@
     <MESSAGE value="1、接口测试代码" />
     <MESSAGE value="1、增加MyObservatory Ui测试代码" />
     <MESSAGE value="1、增加MyObservatory API测试代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、增加MyObservatory API测试代码" />
+    <MESSAGE value="1、新增testExcel测试代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、新增testExcel测试代码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.ignore" />
